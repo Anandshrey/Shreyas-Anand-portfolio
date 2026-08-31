@@ -2,8 +2,8 @@
 
 # Shreyas Anand - Telling Stories with Data Portfolio
 
-- Web page URL: https://[yourusername].github.io/tswd-portfolio-templates/
-- This repository: https://github.com/[yourusername]/tswd-portfolio-templates/
+- Web page URL: https://anandshrey.github.io/Shreyas-Anand-portfolio/
+- This repository: https://github.com/Anandshrey/Shreyas-Anand-portfolio/
 
 ## About me
 
@@ -13,16 +13,22 @@ My professional journey spans roles in both research and industry, where I've ap
 
 ## What I hope to learn
 
-In this course, I hope to bridge the gap between backend data engineering/machine learning and front-end data storytelling. While I have extensive experience building complex models (like predicting power outages or detecting deepfakes), I want to master the art of communicating these technical insights visually and intuitively to non-technical stakeholders. 
+In this course, I aim to master the intersection of data science and compelling storytelling. While I have a strong foundation in backend data engineering and machine learning, I want to refine my ability to translate complex analyses into persuasive, accessible narratives for diverse audiences. Specifically, I hope to:
 
-After graduation, I plan to leverage these skills in a role that sits at the intersection of data science, AI, and cloud architecture—ensuring that the scalable, data-driven systems I build also drive clear, understandable business value.
+* **Develop Compelling Narratives:** Learn to construct clear, narrative driven stories that can influence policy and business decisions, moving beyond raw data to actionable insights.
+* **Master Visualization Design:** Apply established design practices including color, text, layout, and visualization to create powerful digital and interactive artifacts.
+* **Conduct User-Centric Research:** Incorporate user feedback methodologies to ensure my visualizations and supporting narratives effectively communicate their intended message to the subject audience.
+* **Critique and Justify:** Develop the analytical framework to deconstruct and critique existing visualizations while rigorously defending my own design decisions and recommendations.
+* **Experiment with New Mediums:** Gain hands on experience with new tools and formats to build a robust, publicly accessible portfolio of work that I can immediately apply in my post-graduation career.
+
+Ultimately, I plan to leverage these skills to ensure that the scalable AI and cloud systems I build are matched by equally clear, impactful, and ethically sourced front-end communication.
 
 ## Portfolio
 
 Here is a collection of my coursework and data visualization projects for the semester:
 
-### Assignment: [Visualizing Government Debt](visualizing-government-debt)
-*(Placeholder for the government debt visualization assignment)*
+### Assignment: Data visualization critique #1 (AI Critique)
+*(Placeholder for the assignment)*
 
 ### Assignment 3 & 4: [Critique by Design](critique-by-design)
 *(Placeholder for the critique by design assignment)*
@@ -44,7 +50,7 @@ My final project for the course, detailing the entire process from data explorat
 * **AI & ML Intern (DRDO):** Developed a RAG-based multi-agent orchestration layer to enable high-speed, parallel processing of complex documents, optimizing retrieval times by 40%.
 
 ## References
-*None currently.*
+https://canvas.cmu.edu/courses/56275
 
 ## AI Acknowledgements
-*None currently.*
+Used Gemini to create content to be added for profile section in the portfolio
