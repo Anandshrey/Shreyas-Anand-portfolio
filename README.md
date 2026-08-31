@@ -1,112 +1,50 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://[yourusername].github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
+# Shreyas Anand - Telling Stories with Data Portfolio
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+- Web page URL: https://[yourusername].github.io/tswd-portfolio-templates/
+- This repository: https://github.com/[yourusername]/tswd-portfolio-templates/
 
-# Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
+## About me
 
-# About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+Hello! I'm Shreyas Anand, currently pursuing my Master of Information Systems Management with a specialization in Business Intelligence and Data Analytics (MISM-BIDA) at Carnegie Mellon University's Heinz College. I am a passionate developer and data/AI innovator with a strong focus on cloud technologies, automated operations, and translating complex data into reliable outcomes. 
 
-# What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
+My professional journey spans roles in both research and industry, where I've applied machine learning, predictive modeling, and data visualization to drive measurable results. From developing RAG-based retrieval systems at the Defence Research & Development Organisation to designing Tableau dashboards that drove revenue uplift at Sopra Steria, I love tackling complex data problems. Most recently, I've been expanding my expertise in cloud infrastructure and automated CI/CD pipelines.
 
-1. List item #1
-2. List item #2
-3. List item #3
+## What I hope to learn
 
-or...
+In this course, I hope to bridge the gap between backend data engineering/machine learning and front-end data storytelling. While I have extensive experience building complex models (like predicting power outages or detecting deepfakes), I want to master the art of communicating these technical insights visually and intuitively to non-technical stakeholders. 
 
-- List item #1
-- List item #2
-- List item #3
+After graduation, I plan to leverage these skills in a role that sits at the intersection of data science, AI, and cloud architecture—ensuring that the scalable, data-driven systems I build also drive clear, understandable business value.
 
-# Portfolio
+## Portfolio
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
+Here is a collection of my coursework and data visualization projects for the semester:
 
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
+### Assignment: [Visualizing Government Debt](visualizing-government-debt)
+*(Placeholder for the government debt visualization assignment)*
 
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
+### Assignment 3 & 4: [Critique by Design](critique-by-design)
+*(Placeholder for the critique by design assignment)*
 
-## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
+### Final Project
+My final project for the course, detailing the entire process from data exploration to final visualization.
+* [Part I](final-project-part-one)
+* [Part II](final-project-part-two)
+* [Part III](final-project-part-three)
 
 ---
-## Other stuff you can do (you can remove this section - it's just for your reference.)
 
-### Changing text
+## Past Projects & Experience
+*(Select highlights from my professional portfolio)*
 
-You can change text, like this: 
-
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
-
-### Creating tables
-
-You can build tables like this: 
-
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
-
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
-
-You can use different headings, like this: 
-
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
-
-### Adding images
-
-Here's an example of how to add an image to my portfolio.  
-
-![funny dog picture](funny-dog-unsplash.jpg)
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-Alternately, you can set the size of the image using just a bit of HTML: 
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
-
-### Setting up a separate page
-
-So here's the code you'll need to add to your own site to create a second page. 
-
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
-
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
-
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
+* **Automated Portfolio CI/CD Pipeline:** Developed a Continuous Deployment pipeline using GitHub Actions to automatically build and deploy my personal portfolio website.
+* **Housing Market Analysis:** Implemented K-Means clustering and engineered dashboards to segment housing premiums, visualizing insights on tax incentive inequality.
+* **Cloud & Agentic AI Intern (Quadrant Technologies):** Automated software build, test, and deployment pipelines using GitHub Actions and provisioned cloud infrastructure on Azure using Terraform.
+* **AI & ML Intern (DRDO):** Developed a RAG-based multi-agent orchestration layer to enable high-speed, parallel processing of complex documents, optimizing retrieval times by 40%.
 
 ## References
-_List any references you used here._
+*None currently.*
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+## AI Acknowledgements
+*None currently.*
