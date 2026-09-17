@@ -24,7 +24,7 @@ Use the links above to compare the initial prototype with the final design. The 
 
 - It uses a familiar horizontal bar chart and direct PP100 labels.
 - Brand names and logos make the subject immediately recognizable.
-- The blue-to-red color progression helps viewers see a good-to-bad performance pattern.
+- The blue to red color progression helps viewers see a good-to-bad performance pattern.
 - The 190 PP100 industry average supplies an important benchmark.
 - The subject is relevant to car shoppers and invites readers to locate familiar brands.
 
@@ -32,7 +32,7 @@ Use the links above to compare the initial prototype with the final design. The 
 
 The graphic initially felt attractive, familiar, and easy to enter. I could quickly identify Lexus, Toyota, and Buick as the best-performing brands in the displayed study and Chrysler as the worst-performing brand. However, the two-column layout made the ordered list harder to follow: the eye has to finish the left column and restart at the top of the right column. The industry average also looked like another ranked row rather than a benchmark.
 
-The title says “most reliable,” but the measure is actually reported problems per 100 vehicles. The display does not plainly state that lower is better. It also omits important study context, including the respondent sample, vehicle model year, field dates, and the fact that PP100 counts reported problems without showing their severity or repair cost.
+The title says 'most reliable', but the measure is actually reported problems per 100 vehicles. The display does not plainly state that lower is better. It also omits important study context, including the respondent sample, vehicle model year, field dates, and the fact that PP100 counts reported problems without showing their severity or repair cost.
 
 ## Step 2 — Structured critique
 
@@ -44,7 +44,7 @@ I used Stephen Few's Data Visualization Effectiveness Profile to separate differ
 |---|---:|---|
 | Usefulness | 8/10 | The ranking and benchmark address a question that matters to car shoppers, but they cannot support model-level decisions. |
 | Completeness | 6/10 | Exact values and the industry average are present, but sample, timing, model year, metric direction, and key limitations are absent. |
-| Perceptibility | 6/10 | Bars and labels work, but the two-column split interrupts comparison and large logos compete with the data. |
+| Perceptibility | 6/10 | Bars and labels work, but the two column split interrupts comparison and large logos compete with the data. |
 | Truthfulness | 8/10 | Values and bar lengths match the cited table, but limited context can encourage overgeneralization. |
 | Intuitiveness | 6/10 | The chart form is familiar, but “lower is better” is unstated and the average resembles a brand row. |
 | Aesthetics | 9/10 | Typography, color, spacing, and brand imagery are cohesive and appealing. |
@@ -52,7 +52,7 @@ I used Stephen Few's Data Visualization Effectiveness Profile to separate differ
 
 ### Audience
 
-The primary audience appears to be U.S. car shoppers and general-interest readers seeking a quick brand-level dependability signal. The original is effective as an introduction, but it should not be treated as a prediction for every vehicle. A shopper would need model-level evidence, problem severity, repair costs, and other information before making a purchase decision.
+The primary audience appears to be US car shoppers and general-interest readers seeking a quick brand level dependability signal. The original is effective as an introduction, but it should not be treated as a prediction for every vehicle. A shopper would need model level evidence, problem severity, repair costs, and other information before making a purchase decision.
 
 ### What the critique framework revealed
 
@@ -62,7 +62,7 @@ Compared with the Good Charts method, Few's profile is stronger as a detailed di
 
 ## Step 3 — Design concepts
 
-[Explore the interactive Step 3 prototype](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Car_Brand_Dependability_Step3/ConceptA-RankedBrands). The two sketches below record the concepts prepared for peer testing. The projected brand sketch shows a subset for legibility; the workbook includes all 29 brands.
+[Explore the interactive Step 3 prototype](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Car_Brand_Dependability_Step3/ConceptA-RankedBrands). The two sketches below record the concepts prepared for peer testing. The projected brand sketch shows a subset for legibility and the workbook includes all 29 brands.
 
 ### Concept A: one continuous ranked list
 
@@ -74,11 +74,11 @@ The first concept places every brand in one sorted horizontal list. It keeps dir
 
 ![Wireframe B: initial country comparison](assets/car-dependability/wireframe-b-country-context.png)
 
-The second concept tested a secondary country-level comparison using the **unweighted mean PP100 across the brands shown**. It was intended as supporting context, not a replacement for the brand ranking. These values do not estimate the dependability of a country's vehicle fleet, and they should not be interpreted as respondent-weighted national measures.
+The second concept tested a secondary country level comparison using the **unweighted mean PP100 across the brands shown**. It was intended as supporting context, not a replacement for the brand ranking. These values do not estimate the dependability of a country's vehicle fleet, and they should not be interpreted as respondent-weighted national measures.
 
 ## Step 4 — Peer testing
 
-I shared the two redesign concepts with **three classmates** during the in-class critique and collected the feedback summarized below. The participants are anonymous classmates (Participants A, B, and C). My retained notes combine their suggestions; they do not preserve which person made each comment, so I report the feedback as a group synthesis rather than reconstruct individual quotations. No names or identifying details are included.
+I shared the two redesign concepts with **three classmates** during the in class critique and collected the feedback summarized below. The participants are anonymous classmates (Participants A, B were from MSPPM program, and C was from MISM BIDA 16). My retained notes combine their suggestions and they do not preserve which person made each comment, so I report the feedback as a group synthesis rather than reconstruct individual quotations.
 
 The prepared interview script used these prompts:
 
@@ -173,6 +173,6 @@ The final ranked view does not depend on color alone: brand names, ordered posit
 
 ## AI-use disclosure
 
-I used ChatGPT/Codex to help recover and structure the public source data after the original MakeoverMonday data link became unavailable, organize the critique using Stephen Few's framework, draft and revise the class-testing script, create and troubleshoot an early Tableau workbook, format presentation materials, and turn my peer-feedback notes into a final change log and portfolio narrative. I checked the reported values and methodology against Visual Capitalist and J.D. Power and manually reviewed the final workbook. The AI did not generate the peer feedback; those observations came from the in-class critique.
+I used ChatGPT to help me refine my writeup for this assignment. Once I was done with improved design after the peer feedback, I let Copilot critique my design and suggest any improvements. Lasty gave the assignment rubrics to ChatGPT and asked it to check if all deliverables have met.
 
 [Back to my portfolio](./)
