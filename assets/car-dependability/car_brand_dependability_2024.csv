@@ -1,0 +1,30 @@
+Rank,Brand,Problems per 100 Vehicles,Country,Country Code,Performance vs Industry Average,Industry Average
+1,Lexus,135,Japan,JP,Better than average,190
+2,Toyota,147,Japan,JP,Better than average,190
+3,Buick,149,United States,US,Better than average,190
+4,Chevrolet,174,United States,US,Better than average,190
+5,MINI,174,United Kingdom,GB,Better than average,190
+6,Porsche,175,Germany,DE,Better than average,190
+7,Mazda,185,Japan,JP,Better than average,190
+8,Kia,187,South Korea,KR,Better than average,190
+9,BMW,190,Germany,DE,At average,190
+10,Dodge,190,United States,US,At average,190
+11,Jeep,190,United States,US,At average,190
+12,Cadillac,196,United States,US,Worse than average,190
+13,Hyundai,198,South Korea,KR,Worse than average,190
+14,Subaru,198,Japan,JP,Worse than average,190
+15,Nissan,199,Japan,JP,Worse than average,190
+16,Genesis,200,South Korea,KR,Worse than average,190
+17,Ram,201,United States,US,Worse than average,190
+18,GMC,206,United States,US,Worse than average,190
+19,Honda,206,Japan,JP,Worse than average,190
+20,Acura,216,Japan,JP,Worse than average,190
+21,Mercedes-Benz,218,Germany,DE,Worse than average,190
+22,Infiniti,219,Japan,JP,Worse than average,190
+23,Ford,239,United States,US,Worse than average,190
+24,Volvo,245,Sweden,SE,Worse than average,190
+25,Lincoln,251,United States,US,Worse than average,190
+26,Volkswagen,267,Germany,DE,Worse than average,190
+27,Land Rover,268,United Kingdom,GB,Worse than average,190
+28,Audi,275,Germany,DE,Worse than average,190
+29,Chrysler,310,United States,US,Worse than average,190

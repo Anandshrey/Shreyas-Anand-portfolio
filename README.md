@@ -1,4 +1,4 @@
-| [home page](https://[yourusername].github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://anandshrey.github.io/Shreyas-Anand-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Shreyas Anand - Telling Stories with Data Portfolio
 
@@ -32,7 +32,7 @@ Here is a collection of my coursework and data visualization projects for the se
 *(Placeholder for the assignment)*
 
 ### Assignment 3 & 4: [Critique by Design](critique-by-design)
-*(Placeholder for the critique by design assignment)*
+A critique and Tableau redesign of car-brand dependability data, documenting the original visualization, Stephen Few evaluation, two wireframes, in-class peer feedback, and the final ranked chart and country map.
 
 ### Final Project
 My final project for the course, detailing the entire process from data exploration to final visualization.
