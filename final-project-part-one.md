@@ -5,23 +5,23 @@
 
 **Shreyas Anand · Telling Stories with Data · September 21, 2026**
 
-**Research question:** Among the one-stop Boston–Los Angeles itineraries in a historical flight-search sample, how does average scheduled layover duration differ by connection airport, and what does that average hide about long waits and overnight timing?
+**Research question:** Among the 1 stop Boston to Los Angeles itineraries in a historical flight search sample, how does average scheduled layover duration differ by connection airport, and what does that average hide about long waits and overnight timing?
 
 [Outline](#outline) · [Initial sketches](#initial-sketches) · [The data](#the-data) · [Method and medium](#method-and-medium) · [References](#references)
 
 ## Outline
 
-### High-level summary
+### High level summary
 
-A connecting journey contains a second trip: the time spent between flights. I want to make that usually overlooked interval visible. My project will compare **average scheduled layover duration** at connection airports on one specific coast-to-coast market, Boston Logan (BOS) and Los Angeles International (LAX), in both directions. The intended audience is occasional travelers, including students, who understand flight duration but may not examine the time and local-clock implications of a connection. The story will start with an average, show how it varies across airports, and then reveal the individual waits that an average compresses into one number.
+A connecting journey contains a second trip: the time spent between flights. I want to make that usually overlooked interval visible. My project will compare **average scheduled layover duration** at connection airports on one specific coast to coast market, Boston Logan (BOS) and Los Angeles International (LAX), in both directions. The intended audience is occasional travelers, including students, who understand flight duration but may not examine the time and local clock implications of a connection. The story will start with an average, show how it varies across airports, and then reveal the individual waits that an average compresses into one number.
 
-The working data already supports a useful opening: across 828 retained one-stop itineraries, the mean scheduled layover is approximately **138 minutes**, while the median is **96 minutes**. A distribution and two local-time timelines will help readers understand why a roughly two-hour average does not describe every journey. The final experience will be a guided Shorthand narrative with embedded Tableau visualizations, ending with a practical prompt: compare the average, inspect the actual connection, and check the local clock before planning how to spend the wait. These are historical advertised schedules, not measured passenger experiences or current booking recommendations.
+The working data already supports a useful opening: across 828 retained one-stop itineraries, the mean scheduled layover is approximately **138 minutes**, while the median is **96 minutes**. A distribution and two local-time timelines will help readers understand why a roughly 2 hour average does not describe every journey. The final experience will be a guided Shorthand narrative with embedded Tableau visualizations, ending with a practical prompt: compare the average, inspect the actual connection, and check the local clock before planning how to spend the wait. These are historical advertised schedules, not measured passenger experiences or current booking recommendations.
 
 ### How the original idea became a feasible project
 
-My initial idea considered domestic versus international hubs, overnight hotels, and October–November travel. I am keeping the central question about **average layover duration**, while narrowing the empirical study to an accessible dataset and a consistent origin–destination pair. The downloaded pilot covers departures **April 17–26, 2022**, as listed in the initial April 16 search-date block. It does not establish an October–November peak, international averages, or deliberate airline engineering of overnight gaps. Those claims would require additional evidence. International hotel policies can supply a clearly separated context note; they will not be treated as layover observations or used to explain the domestic sample.
+My initial idea considered domestic versus international hubs, overnight hotels, and October to November travel. I am keeping the central question about **average layover duration**, while narrowing the empirical study to an accessible dataset and a consistent origin destination pair. The downloaded pilot covers departures **April 17–26, 2022**, as listed in the initial April 16 search date block. It does not establish an October November peak, international averages, or deliberate airline engineering of overnight gaps. Those claims would require additional evidence. International hotel policies can supply a clearly separated context note; they will not be treated as layover observations or used to explain the domestic sample.
 
-This is an original use of flight-listing data to investigate the connection itself, rather than reproducing a fare-prediction analysis. The narrower route also gives the audience a concrete decision instead of a broad ranking of the world’s airports.
+This is an original use of flight listing data to investigate the connection itself, rather than reproducing a fare prediction analysis. The narrower route also gives the audience a concrete decision instead of a broad ranking of the world’s airports.
 
 ### Audience, user stories, and intended takeaway
 
@@ -94,13 +94,13 @@ The histogram gives the average context. The pilot contains **54 waits of at lea
 
 ![Two local-time timelines compare a 7-hour-6-minute JFK layover from 14:21 to 21:27 with a 7-hour-12-minute SFO layover from 22:48 to 06:00 the following day.](assets/layover/sketch-04-local-clock.svg)
 
-Both examples are BOS–LAX listings, on different dates and through different hubs. The JFK example is from April 25 and the SFO example from April 17. They illustrate clock placement, not a claim that either itinerary is better. A night window of 22:00–06:00 will be explicitly labeled as a project convention. A connection can overlap this window without crossing midnight. Neither measure proves that accommodation is necessary, available, or complimentary.
+Both examples are BOS - LAX listings, on different dates and through different hubs. The JFK example is from April 25 and the SFO example from April 17. They illustrate clock placement, not a claim that either itinerary is better. A night window of 22:00 to 06:00 will be explicitly labeled as a project convention. A connection can overlap this window without crossing midnight. Neither measure proves that accommodation is necessary, available, or complimentary.
 
 ## The data
 
 ### Sources and working copy
 
-The primary source is Dillon Wong’s **Flight Prices** dataset, a collection of one-way Expedia search listings with per-leg airport codes and scheduled departure and arrival timestamps. Its creator documents the segment fields and the original collection period. I downloaded a bounded extract from the original archive, keeping BOS–LAX and LAX–BOS listings in the **initial contiguous April 16, 2022 search-date block**, stopping when the search date first changed. This retrieved 1,392 listings for departures April 17–26. It is a reproducible convenience extract, not a random sample or a claim to contain every offer for that search date anywhere in the full archive. The source listing identifies the license as CC BY 4.0. The original source, attribution, and modifications are documented in the linked data notes.
+The primary source is Dillon Wong’s **Flight Prices** dataset, a collection of one-way Expedia search listings with per leg airport codes and scheduled departure and arrival timestamps. Its creator documents the segment fields and the original collection period. I downloaded a bounded extract from the original archive, keeping BOS - LAX and LAX - BOS listings in the **initial contiguous April 16, 2022 search-date block**, stopping when the search date first changed. This retrieved 1392 listings for departures April 17 to 26. It is a reproducible convenience extract, not a random sample or a claim to contain every offer for that search date anywhere in the full archive. The source listing identifies the license as CC BY 4.0. The original source, attribution, and modifications are documented in the linked data notes.
 
 I will calculate the wait from the next flight’s departure timestamp minus the previous flight’s arrival timestamp, rather than treating whole-journey duration as layover duration. I retained one-stop itineraries whose actual first and last segment airports match BOS and LAX, checked segment continuity and timestamp consistency, and used a schedule signature to avoid counting repeat fare offers as separate schedules. This produces 828 distinct schedule-and-carrier combinations. The working CSV preserves local times, carrier pairs, source-row references, duration, and night indicators so that every proposed central visualization can be built from data already available. Full construction and independent checks are supplied in an executable notebook.
 
@@ -126,15 +126,15 @@ The international pages were checked during preparation; their conditions are co
 | Duplicate schedule signatures removed from the remaining rows | 0 |
 | Retained one-stop itineraries | **828** |
 
-The endpoint check matters: some listings returned under a LAX search end at a nearby airport such as Ontario (ONT). Keeping them would mix different journeys into one comparison. All retained segment arrays align; the two legs connect at the same airport; departure and arrival order is valid; and epoch timestamps agree with the offset-aware local timestamps. The retained set contains **383 BOS–LAX** and **445 LAX–BOS** itineraries across **26 connection airports**. Layovers range from **31 to 551 minutes**. **21** cross local midnight; **144** overlap the defined 22:00–06:00 window. These are distinct concepts and will be labeled separately. See [check results](assets/layover/quality_checks.json) and the notebook for row-level exclusions and independent verification.
+The endpoint check matters: some listings returned under a LAX search end at a nearby airport such as Ontario (ONT). Keeping them would mix different journeys into one comparison. All retained segment arrays align; the two legs connect at the same airport; departure and arrival order is valid; and epoch timestamps agree with the offset aware local timestamps. The retained set contains **383 BOS–LAX** and **445 LAX - BOS** itineraries across **26 connection airports**. Layovers range from **31 to 551 minutes**. **21** cross local midnight; **144** overlap the defined 22:00–06:00 window. These are distinct concepts and will be labeled separately. See [check results](assets/layover/quality_checks.json) and the notebook for row-level exclusions and independent verification.
 
 ### Definitions and limits
 
-- **Unit of analysis:** one distinct listed two-leg schedule-and-carrier combination on a departure date. Every retained itinerary has equal weight; no passenger-volume weight is available. Flight numbers are absent, so the signature is a practical identity rule rather than a guaranteed physical-flight identifier.
+- **Unit of analysis:** one distinct listed two leg schedule and carrier combination on a departure date. Every retained itinerary has equal weight and no passenger volume weight is available. Flight numbers are absent, so the signature is a practical identity rule rather than a guaranteed physical flight identifier.
 - **Average scheduled layover:** arithmetic mean of `(onward departure epoch − inbound arrival epoch) / 60`, grouped by connection airport and the selected filters. The median and distribution provide context.
-- **Date and clock treatment:** use epoch seconds for elapsed time and offset-aware local timestamps for night placement. The departure date is the itinerary’s starting date; a connection can end the next day.
+- **Date and clock treatment:** use epoch seconds for elapsed time and offset aware local timestamps for night placement. The departure date is the itinerary’s starting date and a connection can end the next day.
 - **Coverage:** one historical search block, one city pair in both directions, ten departure dates, and the offers captured by the source. Search lead time and carrier mix differ across records. Pooling directions is transparent but can change comparisons; the final controls will permit separate views.
-- **Interpretation:** these are scheduled advertised waits, not actual arrival delays, ticket purchases, passenger-weighted averages, or current schedules. This pilot cannot establish the “best” airport, causal airline scheduling strategy, seasonal patterns, or international differences.
+- **Interpretation:** these are scheduled advertised waits, not actual arrival delays, ticket purchases, passenger weighted averages, or current schedules. This pilot cannot establish the “best” airport, causal airline scheduling strategy, seasonal patterns, or international differences.
 - **Overnight accommodation:** midnight crossing and night-window overlap describe timing. Hotel need, entry permission, hotel use, and entitlement are not observed and will not be inferred.
 
 ## Method and medium
@@ -143,7 +143,7 @@ I used the prepared CSV in **Tableau Desktop** to build four worksheets and publ
 
 The default comparison will use both directions and all pilot dates, with a direction selector and optional date/carrier controls. Selecting an airport will filter a detail view; clearing the selection will restore the full sample. The reader will see counts and definitions without hovering. On phones, narrative and charts will stack vertically, the airport comparison will retain readable labels, and the timeline will use a dedicated narrow layout instead of shrinking a desktop dashboard. Color will be supplemented by direct labels. The [Tableau design specification](https://github.com/Anandshrey/Shreyas-Anand-portfolio/blob/main/assets/layover/TABLEAU_PLAN.md) maps the planned sheets, fields, calculations, and interaction checks; the [nonfunctional layout wireframe](assets/layover/tableau-wireframe.html) shows the intended comparison module.
 
-Before Part II, I will refine the published Tableau prototype, test whether readers understand “scheduled average” versus “my itinerary,” and revise the narrative accordingly. If the project expands beyond this pilot, I will obtain and document comparable itinerary records before adding international or seasonal comparisons. The project is feasible within its current scope without assuming future access to a paid flight-data service.
+Before Part II, I will refine the published Tableau prototype, test whether readers understand 'scheduled average' versus 'my itinerary', and revise the narrative accordingly. If the project expands beyond this pilot, I will obtain and document comparable itinerary records before adding international or seasonal comparisons. The project is feasible within its current scope without assuming future access to a paid flight-data service.
 
 ## References
 
@@ -153,10 +153,10 @@ Before Part II, I will refine the published Tableau prototype, test whether read
 4. Emirates. (n.d.). *Dubai Connect: Terms and conditions*. [Official terms](https://www.emirates.com/us/english/before-you-fly/dubai-international-airport/dubai-connect/terms-and-conditions/). Accessed September 20, 2026.
 5. Turkish Airlines. (n.d.). *Hotel service*. [Official policy](https://www.turkishairlines.com/en-int/flights/hotel-service/). Accessed September 20, 2026.
 
-The diagrams and chart sketches were created for this proposal; no airline logos or third-party photographs are reproduced. Derived data retains attribution to the original dataset and identifies the filtering and added fields.
+The diagrams and chart sketches were created for this proposal and no airline logos or third party photographs are reproduced. Derived data retains attribution to the original dataset and identifies the filtering and added fields.
 
 ## AI acknowledgements
 
-OpenAI Codex assisted with interpreting the assignment, locating and extracting public data, writing and checking the transformations, drafting the narrative and Tableau plan, and generating the initial digital sketches. The initial layover concept and the decision to retain average duration as the central question were provided by me. The linked source extract, analysis notebook, and calculation checks make that assistance inspectable. No interviews, passenger experiences, or completed Shorthand publication are claimed for Part I. The linked Tableau Public workbook is a working four-sheet prototype built from the documented pilot data.
+OpenAI Codex assisted with interpreting the assignment and coming up with an idea, locating and extracting public data. It also assisted me in refining the writeup and drafting the narrative. There was no assistance by AI in building the dashboard charts.
 
 [Back to portfolio](https://anandshrey.github.io/Shreyas-Anand-portfolio/) · [Next: Part II](final-project-part-two)
