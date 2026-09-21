@@ -56,7 +56,21 @@ The SVGs below are the **initial digital story sketches**. They remain planning 
 - [Night Exposure by Hub](https://public.tableau.com/views/Projectpart1_17900063502800/NightExposurebyHub?:showVizHome=no)
 - [Daily Average Layover](https://public.tableau.com/views/Projectpart1_17900063502800/DailyAverageLayover?:showVizHome=no)
 
-[Open the complete four-sheet workbook on Tableau Public](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover?publish=yes). The worksheet tabs let readers move between all four charts. The numerical marks in the sketches and workbook use the downloaded pilot; the more advanced controls and Shorthand interactions described below remain planned for later stages.
+### Live Tableau workbook
+
+The view below is loaded directly from Tableau Public, so republishing the same workbook updates this page automatically. Use the worksheet tabs to move between all four charts. If the embedded view does not load, [open the workbook on Tableau Public](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover).
+
+<div style="position:relative;width:100%;height:760px;margin:1.5rem 0;overflow:hidden;">
+  <iframe
+    title="The Architecture of a Layover - interactive Tableau workbook"
+    src="https://public.tableau.com/views/Projectpart1_17900063502800/DailyAverageLayover?:showVizHome=no&amp;:embed=yes&amp;:toolbar=yes"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
+
+The numerical marks in the sketches and workbook use the downloaded pilot; the more advanced controls and Shorthand interactions described below remain planned for later stages. The SVGs below are static planning sketches, while the embedded Tableau workbook above is the live version.
 
 ### 1. Opening: the hidden interval
 
