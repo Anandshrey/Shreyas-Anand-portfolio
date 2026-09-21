@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc"><title id="title">The average does not show the long wait.</title><desc id="desc">Initial chart sketch • All 828 retained itineraries • Equal weight per itinerary</desc><rect width="1200" height="800" fill="#FAF8F2"/>
+<text x="48" y="46" font-family="Arial, sans-serif" font-size="17" fill="#A65F00" font-weight="700" text-anchor="start">03 / REVEAL THE DISTRIBUTION</text>
+<text x="48" y="95" font-family="Arial, sans-serif" font-size="35" fill="#152F40" font-weight="700" text-anchor="start">The average does not show the long wait.</text>
+<text x="48" y="132" font-family="Arial, sans-serif" font-size="18" fill="#51636C" font-weight="400" text-anchor="start">Initial chart sketch • All 828 retained itineraries • Equal weight per itinerary</text>
+<line x1="88" y1="548.0" x2="1068" y2="548.0" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="72" y="554.0" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">0</text>
+<line x1="88" y1="473.0" x2="1068" y2="473.0" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="72" y="479.0" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">100</text>
+<line x1="88" y1="398.0" x2="1068" y2="398.0" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="72" y="404.0" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">200</text>
+<line x1="88" y1="323.0" x2="1068" y2="323.0" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="72" y="329.0" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">300</text>
+<line x1="88" y1="248.0" x2="1068" y2="248.0" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="72" y="254.0" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">400</text>
+<rect x="89.0" y="470.75" width="96.0" height="77.25" rx="0" fill="#22577A"/>
+<text x="137.0" y="460.75" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">103</text>
+<rect x="187.0" y="254.0" width="96.0" height="294.0" rx="0" fill="#22577A"/>
+<text x="235.0" y="244.0" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">392</text>
+<rect x="285.0" y="446.75" width="96.0" height="101.25" rx="0" fill="#22577A"/>
+<text x="333.0" y="436.75" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">135</text>
+<rect x="383.0" y="464.75" width="96.0" height="83.25000000000001" rx="0" fill="#22577A"/>
+<text x="431.0" y="454.75" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">111</text>
+<rect x="481.0" y="535.25" width="96.0" height="12.750000000000002" rx="0" fill="#22577A"/>
+<text x="529.0" y="525.25" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">17</text>
+<rect x="579.0" y="536.0" width="96.0" height="12.0" rx="0" fill="#22577A"/>
+<text x="627.0" y="526.0" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">16</text>
+<rect x="677.0" y="532.25" width="96.0" height="15.75" rx="0" fill="#A65F00"/>
+<text x="725.0" y="522.25" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">21</text>
+<rect x="775.0" y="525.5" width="96.0" height="22.5" rx="0" fill="#A65F00"/>
+<text x="823.0" y="515.5" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">30</text>
+<rect x="873.0" y="547.25" width="96.0" height="0.75" rx="0" fill="#A65F00"/>
+<text x="921.0" y="537.25" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">1</text>
+<rect x="971.0" y="546.5" width="96.0" height="1.5" rx="0" fill="#A65F00"/>
+<text x="1019.0" y="536.5" font-family="Arial, sans-serif" font-size="17" fill="#152F40" font-weight="700" text-anchor="middle">2</text>
+<text x="88.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">0</text>
+<text x="186.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">60</text>
+<text x="284.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">120</text>
+<text x="382.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">180</text>
+<text x="480.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">240</text>
+<text x="578.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">300</text>
+<text x="676.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">360</text>
+<text x="774.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">420</text>
+<text x="872.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">480</text>
+<text x="970.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">540</text>
+<text x="1068.0" y="576" font-family="Arial, sans-serif" font-size="16" fill="#51636C" font-weight="400" text-anchor="middle">600</text>
+<text x="88" y="197" font-family="Arial, sans-serif" font-size="18" fill="#152F40" font-weight="400" text-anchor="start">Itineraries</text>
+<text x="580" y="611" font-family="Arial, sans-serif" font-size="18" fill="#152F40" font-weight="400" text-anchor="middle">Scheduled layover (minutes); 60-minute bins</text>
+<text x="88" y="659" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="start">Mean 138 min • Median 96 min • 54 of 828 waits lasted at least 6 hours (6.5%).</text>
+<text x="88" y="698" font-family="Arial, sans-serif" font-size="18" fill="#51636C" font-weight="400" text-anchor="start">The six-hour marker is an editorial planning threshold, not a hotel-eligibility rule.</text>
+<line x1="48" y1="737" x2="1152" y2="737" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="48" y="766" font-family="Arial, sans-serif" font-size="15" fill="#51636C" font-weight="400" text-anchor="start">Pilot observations, not passenger probabilities • The final narrative will link the tail to individual local-clock examples</text>
+</svg>

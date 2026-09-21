@@ -1,0 +1,10 @@
+{
+  "independent_method": "Offset-aware local datetime subtraction versus epoch subtraction for every retained row",
+  "rows_recomputed": 828,
+  "mean_minutes": 137.92753623188406,
+  "median_minutes": 96.0,
+  "histogram_total": 828,
+  "airport_summaries_verified": 74,
+  "source_reconciliation": true,
+  "passed": true
+}

@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/dilwong/flightprices",
+  "source_dataset": "https://www.kaggle.com/datasets/dilwong/flightprices",
+  "zip_member": "itineraries.csv",
+  "search_date": "2022-04-16",
+  "selection": "BOS-LAX or LAX-BOS, initial contiguous search-date block",
+  "rows_scanned_including_boundary": 87658,
+  "next_search_date": "2022-04-17",
+  "rows_retained": 1392,
+  "compressed_bytes_read": 6291456,
+  "origin_counts": {
+    "ATL": 5643,
+    "BOS": 5843,
+    "CLT": 6289,
+    "DEN": 4904,
+    "DFW": 5824,
+    "DTW": 5313,
+    "EWR": 4781,
+    "IAD": 3585,
+    "JFK": 4065,
+    "LAX": 8428,
+    "LGA": 6930,
+    "MIA": 5226,
+    "OAK": 3135,
+    "ORD": 6419,
+    "PHL": 5346,
+    "SFO": 5926
+  },
+  "elapsed_seconds": 2.9374401569366455
+}

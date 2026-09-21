@@ -1,0 +1,732 @@
+{
+  "raw_rows": 1392,
+  "raw_one_stop": 1005,
+  "excluded": {
+    "nonstop": 372,
+    "multiple_connections": 15
+  },
+  "validation_exclusion_counts": {
+    "nearby_airport_endpoint": 177
+  },
+  "validation_errors": [
+    {
+      "row": 2,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 3,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 4,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 5,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 23,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 33,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 53,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 54,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 55,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 56,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 57,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 58,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 59,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 60,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 61,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 62,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 63,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 64,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 65,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 66,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 131,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 142,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 143,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 144,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 149,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 173,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 182,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 183,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 184,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 185,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 251,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 258,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 259,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 282,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 286,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 299,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 300,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 301,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 302,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 303,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 304,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 305,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 357,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 369,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 374,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 375,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 382,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 424,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 432,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 433,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 434,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 457,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 459,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 460,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 461,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 512,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 513,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 514,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 515,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 516,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 521,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 531,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 535,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 536,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 537,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 538,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 539,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 540,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 541,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 592,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 598,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 605,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 618,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 624,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 630,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 638,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 665,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 666,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 667,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 668,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 669,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 690,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 696,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 697,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 698,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 699,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 700,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 701,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 702,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 703,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 717,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 761,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 762,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 770,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 778,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 785,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 793,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 794,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 795,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 819,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 820,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 821,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 822,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 847,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 848,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 857,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 884,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 889,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 890,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 895,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 901,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 902,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 911,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 916,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 921,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 923,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 924,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 925,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 940,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 943,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 945,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 953,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 955,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 959,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 960,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 986,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 988,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1006,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1009,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1018,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1021,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1039,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1044,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1052,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1071,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1127,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1128,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1129,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1133,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1147,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1156,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1171,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1173,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1179,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1180,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1194,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1196,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1197,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1198,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1199,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1220,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1221,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1230,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1231,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1232,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1233,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1234,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1235,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1236,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1299,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1304,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1305,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1306,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1311,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1330,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1333,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1334,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1339,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1340,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1347,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1348,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1350,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1357,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1377,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1378,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1379,
+      "error": "nearby_airport_endpoint"
+    },
+    {
+      "row": 1380,
+      "error": "nearby_airport_endpoint"
+    }
+  ],
+  "unique_schedules": 828,
+  "flight_date_min": "2022-04-17",
+  "flight_date_max": "2022-04-26",
+  "hubs": 26,
+  "overall_mean": 137.92753623188406,
+  "overall_median": 96.0,
+  "midnight_count": 21,
+  "long_6h_count": 54,
+  "min_layover": 31.0,
+  "max_layover": 551.0,
+  "raw_sha256": "c56acae5318727ba54b43bb70d548820fb6bed8d4974be1630ed3bd464427ed9"
+}

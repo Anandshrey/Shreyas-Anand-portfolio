@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc"><title id="title">Compare the average. Keep the denominator.</title><desc id="desc">Initial chart sketch • Both directions pooled • Airports with at least 30 retained itineraries</desc><rect width="1200" height="840" fill="#FAF8F2"/>
+<text x="48" y="46" font-family="Arial, sans-serif" font-size="17" fill="#A65F00" font-weight="700" text-anchor="start">02 / COMPARE CONNECTION AIRPORTS</text>
+<text x="48" y="95" font-family="Arial, sans-serif" font-size="35" fill="#152F40" font-weight="700" text-anchor="start">Compare the average. Keep the denominator.</text>
+<text x="48" y="132" font-family="Arial, sans-serif" font-size="18" fill="#51636C" font-weight="400" text-anchor="start">Initial chart sketch • Both directions pooled • Airports with at least 30 retained itineraries</text>
+<text x="48" y="180" font-family="Arial, sans-serif" font-size="18" fill="#51636C" font-weight="400" text-anchor="start">Planned controls: direction, departure date, carrier pair. Reset returns to the full pilot.</text>
+<line x1="245.0" y1="214" x2="245.0" y2="654" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="245.0" y="687" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="middle">0</text>
+<line x1="475.0" y1="214" x2="475.0" y2="654" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="475.0" y="687" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="middle">60</text>
+<line x1="705.0" y1="214" x2="705.0" y2="654" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="705.0" y="687" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="middle">120</text>
+<line x1="935.0" y1="214" x2="935.0" y2="654" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="935.0" y="687" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="middle">180</text>
+<text x="206" y="245" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">DFW</text>
+<rect x="245" y="223" width="441.02032520325207" height="30" rx="0" fill="#22577A"/>
+<text x="698.020325203252" y="245" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">115 min</text>
+<text x="1113" y="245" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 41</text>
+<text x="206" y="294" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">ORD</text>
+<rect x="245" y="272" width="448.38205128205124" height="30" rx="0" fill="#22577A"/>
+<text x="705.3820512820512" y="294" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">117 min</text>
+<text x="1113" y="294" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 130</text>
+<text x="206" y="343" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">IAD</text>
+<rect x="245" y="321" width="462.4803921568627" height="30" rx="0" fill="#22577A"/>
+<text x="719.4803921568628" y="343" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">121 min</text>
+<text x="1113" y="343" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 34</text>
+<text x="206" y="392" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">JFK</text>
+<rect x="245" y="370" width="513.2559523809523" height="30" rx="0" fill="#22577A"/>
+<text x="770.2559523809523" y="392" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">134 min</text>
+<text x="1113" y="392" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 56</text>
+<text x="206" y="441" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">EWR</text>
+<rect x="245" y="419" width="517.3525641025641" height="30" rx="0" fill="#22577A"/>
+<text x="774.3525641025641" y="441" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">135 min</text>
+<text x="1113" y="441" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 156</text>
+<text x="206" y="490" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">MSP</text>
+<rect x="245" y="468" width="560.7795698924731" height="30" rx="0" fill="#22577A"/>
+<text x="817.7795698924731" y="490" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">146 min</text>
+<text x="1113" y="490" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 62</text>
+<text x="206" y="539" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">DEN</text>
+<rect x="245" y="517" width="573.5026041666666" height="30" rx="0" fill="#22577A"/>
+<text x="830.5026041666666" y="539" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">150 min</text>
+<text x="1113" y="539" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 64</text>
+<text x="206" y="588" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">SLC</text>
+<rect x="245" y="566" width="591.2916666666666" height="30" rx="0" fill="#22577A"/>
+<text x="848.2916666666666" y="588" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">154 min</text>
+<text x="1113" y="588" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 32</text>
+<text x="206" y="637" font-family="Arial, sans-serif" font-size="22" fill="#152F40" font-weight="700" text-anchor="end">SFO</text>
+<rect x="245" y="615" width="640.6846846846846" height="30" rx="0" fill="#22577A"/>
+<text x="897.6846846846846" y="637" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">167 min</text>
+<text x="1113" y="637" font-family="Arial, sans-serif" font-size="17" fill="#51636C" font-weight="400" text-anchor="end">n = 37</text>
+<text x="590" y="720" font-family="Arial, sans-serif" font-size="18" fill="#152F40" font-weight="400" text-anchor="middle">Mean scheduled layover (minutes)</text>
+<text x="48" y="757" font-family="Arial, sans-serif" font-size="19" fill="#152F40" font-weight="700" text-anchor="start">These are sample comparisons, not airport-efficiency scores or forecasts for a new booking.</text>
+<line x1="48" y1="777" x2="1152" y2="777" stroke="#D8DFE1" stroke-width="1" stroke-dasharray=""/>
+<text x="48" y="806" font-family="Arial, sans-serif" font-size="15" fill="#51636C" font-weight="400" text-anchor="start">All 26 airports remain in the downloadable data • Sample size threshold is a display choice, not a significance test</text>
+</svg>
