@@ -47,7 +47,16 @@ The proposed arc moves from a familiar booking decision, through an apparently s
 
 ## Initial sketches
 
-These are **initial digital story sketches**, not finished Tableau worksheets. The numerical marks use the downloaded pilot; the described controls and interactions are planned. Each sketch includes the surrounding narrative so the intended story is visible.
+The SVGs below are the **initial digital story sketches**. They remain planning artifacts rather than Tableau exports. I have now rebuilt four companion charts in **Tableau Public** from the same 828-itinerary prepared dataset.
+
+### Tableau Public workbook
+
+- [Average Layover by Hub](https://public.tableau.com/views/Projectpart1_17900063502800/AverageLayoverbyHub?:showVizHome=no)
+- [Distribution of Layover Durations](https://public.tableau.com/views/Projectpart1_17900063502800/DistributionofLayoverDurations?:showVizHome=no)
+- [Night Exposure by Hub](https://public.tableau.com/views/Projectpart1_17900063502800/NightExposurebyHub?:showVizHome=no)
+- [Daily Average Layover](https://public.tableau.com/views/Projectpart1_17900063502800/DailyAverageLayover?:showVizHome=no)
+
+[Open the complete four-sheet workbook on Tableau Public](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover?publish=yes). The worksheet tabs let readers move between all four charts. The numerical marks in the sketches and workbook use the downloaded pilot; the more advanced controls and Shorthand interactions described below remain planned for later stages.
 
 ### 1. Opening: the hidden interval
 
@@ -116,11 +125,11 @@ The endpoint check matters: some listings returned under a LAX search end at a n
 
 ## Method and medium
 
-I will use the prepared CSV in **Tableau Public** to build the airport comparison, distribution, and itinerary timeline, and embed those views in a **Shorthand** scrolling narrative. The final experience will proceed through the story beats above, with short annotations explaining why each view matters and a visible source link beside each chart. This Part I page, the initial sketches, the downloaded data, and the calculation notes are documented in my existing GitHub portfolio; the finished interactive story belongs to the later project stages.
+I used the prepared CSV in **Tableau Desktop** to build four worksheets and published them as a [four-sheet Tableau Public workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover?publish=yes). The original SVG sketches remain visible as planning evidence; the Tableau links above are the software-built charts. In later project stages, I will refine these worksheets and embed the final views in a **Shorthand** scrolling narrative with short annotations and visible source links beside each chart.
 
 The default comparison will use both directions and all pilot dates, with a direction selector and optional date/carrier controls. Selecting an airport will filter a detail view; clearing the selection will restore the full sample. The reader will see counts and definitions without hovering. On phones, narrative and charts will stack vertically, the airport comparison will retain readable labels, and the timeline will use a dedicated narrow layout instead of shrinking a desktop dashboard. Color will be supplemented by direct labels. The [Tableau design specification](https://github.com/Anandshrey/Shreyas-Anand-portfolio/blob/main/assets/layover/TABLEAU_PLAN.md) maps the planned sheets, fields, calculations, and interaction checks; the [nonfunctional layout wireframe](assets/layover/tableau-wireframe.html) shows the intended comparison module.
 
-Before Part II, I will build the proposed views from this working data, test whether readers understand “scheduled average” versus “my itinerary,” and revise the narrative accordingly. If the project expands beyond this pilot, I will obtain and document comparable itinerary records before adding international or seasonal comparisons. The project is feasible within its current scope without assuming future access to a paid flight-data service.
+Before Part II, I will refine the published Tableau prototype, test whether readers understand “scheduled average” versus “my itinerary,” and revise the narrative accordingly. If the project expands beyond this pilot, I will obtain and document comparable itinerary records before adding international or seasonal comparisons. The project is feasible within its current scope without assuming future access to a paid flight-data service.
 
 ## References
 
@@ -134,6 +143,6 @@ The diagrams and chart sketches were created for this proposal; no airline logos
 
 ## AI acknowledgements
 
-OpenAI Codex assisted with interpreting the assignment, locating and extracting public data, writing and checking the transformations, drafting the narrative and Tableau plan, and generating the initial digital sketches. The initial layover concept and the decision to retain average duration as the central question were provided by me. The linked source extract, analysis notebook, and calculation checks make that assistance inspectable. No interviews, passenger experiences, or completed Tableau/Shorthand publication are claimed for Part I.
+OpenAI Codex assisted with interpreting the assignment, locating and extracting public data, writing and checking the transformations, drafting the narrative and Tableau plan, and generating the initial digital sketches. The initial layover concept and the decision to retain average duration as the central question were provided by me. The linked source extract, analysis notebook, and calculation checks make that assistance inspectable. No interviews, passenger experiences, or completed Shorthand publication are claimed for Part I. The linked Tableau Public workbook is a working four-sheet prototype built from the documented pilot data.
 
 [Back to portfolio](https://anandshrey.github.io/Shreyas-Anand-portfolio/) · [Next: Part II](final-project-part-two)
