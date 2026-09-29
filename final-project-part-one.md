@@ -151,7 +151,7 @@ Before Part II, I will refine the published Tableau prototype, test whether read
 
 2. Recommendations: Rearrange the bars so that it is easier for people to see which airports have major layovers, Introduce hover over airport abbreviations for people who are not aware of them, the bars should reveal the exact layover average when hovered over.
 
-3. I will implement these changes. I plan to introduce maps for domestic USA flights as well as world maps showing an interactive view of flights across the world 
+3. I will implement these changes. I plan to introduce maps for domestic USA flights as well as world maps showing an interactive view of flights across the world. 
 
 ## References
 
