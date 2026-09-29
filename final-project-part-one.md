@@ -145,6 +145,14 @@ The default comparison will use both directions and all pilot dates, with a dire
 
 Before Part II, I will refine the published Tableau prototype, test whether readers understand 'scheduled average' versus 'my itinerary', and revise the narrative accordingly. If the project expands beyond this pilot, I will obtain and document comparable itinerary records before adding international or seasonal comparisons. The project is feasible within its current scope without assuming future access to a paid flight-data service.
 
+## In class critique
+
+1. Other members: Johanna Fickel, Julia Clerici and Trey Tillotson
+
+2. Recommendations: Rearrange the bars so that it is easier for people to see which airports have major layovers, Introduce hover over airport abbreviations for people who are not aware of them, the bars should reveal the exact layover average when hovered over.
+
+3. I will implement these changes. I plan to introduce maps for domestic USA flights as well as world maps showing an interactive view of flights across the world 
+
 ## References
 
 1. Wong, D. (2022). *Flight Prices* [Data set]. Kaggle. [Dataset](https://www.kaggle.com/datasets/dilwong/flightprices). CC BY 4.0. Working extract and derived calculations prepared September 21, 2026.
