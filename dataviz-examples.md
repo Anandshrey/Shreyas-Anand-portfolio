@@ -1,51 +1,70 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://anandshrey.github.io/Shreyas-Anand-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Data visualization examples
 
-<div class='tableauPlaceholder' id='viz1788832469378' style='position: relative'><noscript><a href='#'><img alt=' Debt-to-GDP ratios by country ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Debt-to-GDPratiosbycountry_17888324282620&#47;Debt-to-GDPratiosbycountry&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Debt-to-GDPratiosbycountry_17888324282620&#47;Debt-to-GDPratiosbycountry' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Debt-to-GDPratiosbycountry_17888324282620&#47;Debt-to-GDPratiosbycountry&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+This page brings together four interactive Tableau visualizations. Use the toolbar in each chart to explore the data or open the visualization directly in Tableau Public.
 
-<script type='text/javascript'>                   
-var divElement = document.getElementById('viz1788832469378');                    
-var vizElement = divElement.getElementsByTagName('object')[0];                    
-vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-var scriptElement = document.createElement('script');                    
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
+## Debt-to-GDP ratios by country
 
+An international comparison of government debt as a share of gross domestic product.
 
-<div class='tableauPlaceholder' id='viz17907144349530' style='position: relative'><noscript><a href='https://public.tableau.com/app/profile/shreyas.anand4069/viz/Coviddata_17907144349530/Sheet2?publish=yes'><img alt='COVID data visualization' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Coviddata_17907144349530&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Coviddata_17907144349530&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Coviddata_17907144349530&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<div style="position:relative;width:100%;height:760px;margin:1.5rem 0;overflow:hidden;">
+  <iframe
+    title="Debt-to-GDP ratios by country"
+    src="https://public.tableau.com/views/Debt-to-GDPratiosbycountry_17888324282620/Debt-to-GDPratiosbycountry?:showVizHome=no&amp;:embed=yes&amp;:toolbar=yes"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
 
-<script type='text/javascript'>
-var divElement = document.getElementById('viz17907144349530');
-var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-var scriptElement = document.createElement('script');
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+[Open Debt-to-GDP ratios by country in Tableau Public](https://public.tableau.com/views/Debt-to-GDPratiosbycountry_17888324282620/Debt-to-GDPratiosbycountry?:showVizHome=no)
 
+## COVID-19 data visualization
 
-<div class='tableauPlaceholder' id='viz1788837770210' style='position: relative'><noscript><a href='#'><img alt='The crisis reset the baselineGeneral government debt as a share of GDP, 2007 vs 2018. Of 31 OECD countries with data for both years, 29 ended the decade deeper in debt than they began it. ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;Thecrisisresetthebaseline&#47;Thecrisisresetthebaseline&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Thecrisisresetthebaseline&#47;Thecrisisresetthebaseline' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;Thecrisisresetthebaseline&#47;Thecrisisresetthebaseline&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+An interactive view of the COVID-19 dataset.
 
-<script type='text/javascript'>                    
-var divElement = document.getElementById('viz1788837770210');                    
-var vizElement = divElement.getElementsByTagName('object')[0];                    
-vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-var scriptElement = document.createElement('script');                    
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
+<div style="position:relative;width:100%;height:760px;margin:1.5rem 0;overflow:hidden;">
+  <iframe
+    title="COVID-19 data visualization"
+    src="https://public.tableau.com/views/Coviddata_17907144349530/Sheet2?:showVizHome=no&amp;:embed=yes&amp;:toolbar=yes"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
 
+[Open the COVID-19 visualization in Tableau Public](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Coviddata_17907144349530/Sheet2)
 
-<div class='tableauPlaceholder' id='viz1788900555735' style='position: relative'><noscript><a href='#'><img alt='Trust in News Media (Simmons Research, 2018) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TrustMedia_17889003516530&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TrustMedia_17889003516530&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TrustMedia_17889003516530&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
+## The crisis reset the baseline
 
-<script type='text/javascript'>                    
-var divElement = document.getElementById('viz1788900555735');                    
-var vizElement = divElement.getElementsByTagName('object')[0];                    
-vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-var scriptElement = document.createElement('script');                    
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
+General government debt as a share of GDP in 2007 and 2018.
+
+<div style="position:relative;width:100%;height:760px;margin:1.5rem 0;overflow:hidden;">
+  <iframe
+    title="The crisis reset the baseline"
+    src="https://public.tableau.com/views/Thecrisisresetthebaseline/Thecrisisresetthebaseline?:showVizHome=no&amp;:embed=yes&amp;:toolbar=yes"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
+
+[Open The crisis reset the baseline in Tableau Public](https://public.tableau.com/views/Thecrisisresetthebaseline/Thecrisisresetthebaseline?:showVizHome=no)
+
+## Trust in news media
+
+An interactive visualization of news-media trust using Simmons Research data from 2018.
+
+<div style="position:relative;width:100%;height:760px;margin:1.5rem 0;overflow:hidden;">
+  <iframe
+    title="Trust in news media"
+    src="https://public.tableau.com/views/TrustMedia_17889003516530/Sheet1?:showVizHome=no&amp;:embed=yes&amp;:toolbar=yes"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
+
+[Open Trust in news media in Tableau Public](https://public.tableau.com/views/TrustMedia_17889003516530/Sheet1?:showVizHome=no)
 
