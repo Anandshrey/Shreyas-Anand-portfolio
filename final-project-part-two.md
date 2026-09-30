@@ -51,6 +51,20 @@ The Tableau workbook contains the four original connected views plus a new Part 
 
 [Open night exposure by hub in Tableau Public](https://public.tableau.com/views/Projectpart1_17900063502800/NightExposurebyHub?:showVizHome=no)
 
+### Daily average layover trend
+
+<iframe src="https://public.tableau.com/views/Projectpart1_17900063502800/DailyAverageLayover?:showVizHome=no" width="100%" height="650" title="Daily average scheduled layover"></iframe>
+
+[Open the daily average view in Tableau Public](https://public.tableau.com/views/Projectpart1_17900063502800/DailyAverageLayover?:showVizHome=no)
+
+### Geographic connection-burden map
+
+<iframe src="https://public.tableau.com/views/Projectpart1_17900063502800/Sheet5?:showVizHome=no" width="100%" height="650" title="Where connection burden accumulates"></iframe>
+
+[Open the geographic burden map in Tableau Public](https://public.tableau.com/views/Projectpart1_17900063502800/Sheet5?:showVizHome=no)
+
+The map is intentionally sized by total scheduled layover minutes and colored by six-hour-plus connections. It is an operational diagnostic: large, high-intensity hubs should be investigated by direction before schedule changes are made.
+
 ## What the plots suggest
 
 - The overall mean layover is about **138 minutes**, while the median is **96 minutes**. The 42-minute gap shows why a route planner should not use the mean alone.
