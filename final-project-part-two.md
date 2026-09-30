@@ -16,7 +16,7 @@ The working Shorthand story is titled **“The Architecture of a Layover: What a
 
 # Wireframes / storyboards
 
-The storyboard moves from a familiar traveler question to a more specific planning decision. It deliberately avoids a decorative airport map because location alone does not explain schedule quality.
+The storyboard moves from a familiar traveler question to a specific planning decision. The geographic view is used analytically—not decoratively—to show where total scheduled waiting and six-hour connections accumulate.
 
 | Frame | Purpose | Planned visual | Main takeaway |
 |---|---|---|---|
@@ -25,12 +25,13 @@ The storyboard moves from a familiar traveler question to a more specific planni
 | 3. Where the wait changes | Compare hubs without hiding sample size | Sorted horizontal bars with exact mean, median, p90, and *n* in the tooltip | A hub ranking is only useful when typical wait, tail risk, and sample size are visible together. |
 | 4. Direction changes the picture | Reveal schedule-bank asymmetry | Hub comparison with a BOS–LAX / LAX–BOS direction control | Pooled airport averages can hide large directional differences. |
 | 5. The clock matters | Add a passenger-experience metric | Night-exposure view using the local 10 p.m.–6 a.m. window | Duration alone misses connections that overlap the local overnight period. |
-| 6. Planning priorities | Turn findings into actions | Short annotated priority list | Review high-volume hubs with poor tail or night metrics before reacting to unstable small groups. |
-| 7. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17–26, 2022 advertised schedules, not current operational performance. |
+| 6. Where burden accumulates | Add geographic context without overstating coverage | U.S. hub map sized by total scheduled layover minutes and colored by six-hour waits, with a direction filter | Geography is useful when it reveals where schedule burden clusters. The domestic scope matches the U.S. dataset. |
+| 7. Planning priorities | Turn findings into actions | Short annotated priority list | Review high-volume hubs with poor tail or night metrics before reacting to unstable small groups. |
+| 8. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17–26, 2022 advertised schedules, not current operational performance. |
 
 ## High-fidelity Tableau prototypes
 
-The Tableau workbook contains four connected views. For Part II, the hub view was revised in Tableau Desktop to sort hubs, label exact averages, and expose route direction as a filter.
+The Tableau workbook contains the four original connected views plus a new Part II geographic burden map. The hub view was revised in Tableau Desktop to sort hubs, label exact averages, and expose route direction as a filter. The map sizes hubs by total scheduled layover minutes and colors them by the count of six-hour waits.
 
 ### Average scheduled layover by hub
 
@@ -72,7 +73,7 @@ The Tableau workbook contains four connected views. For Part II, the hub view wa
 | Course reviewer (CR) | The story logic tied the pieces together into a complete picture. | I retained the progression from overall distribution to hub differences and then to the time-of-day experience. |
 | Course reviewer (CG) | The original story had a great deal of detail without a sufficiently clear reason for the audience to need it. The reviewer suggested the perspective of a route planner or airline manager. | I reframed the primary audience as airline network and route planners and converted the ending into schedule-review actions. |
 | Johanna Fickel, Julia Clerici, and Trey Tillotson | Sort the major layover bars, clarify airport abbreviations on hover, and show exact averages. | The Tableau hub view is sorted, exact values are labeled, and the final tooltip specification includes the full airport name, mean, median, p90, direction, and *n*. |
-| My response to the discussion | A map was initially proposed as another view. | I removed the map from the core storyboard. Geography is not explanatory unless it directly supports the schedule-quality question. |
+| My response to the discussion | A map was initially proposed as another view. | I redesigned the map as an analytic view: size encodes total layover burden, color encodes six-hour waits, and direction is filterable. I use a U.S. map because the data is domestic; a world map would overstate coverage. |
 
 # User research
 
@@ -139,7 +140,7 @@ The plot analysis and critique already support the following revisions. Intervie
 - Make direction an explicit control and call out only differences with adequate sample size.
 - Treat night exposure as a separate schedule-quality metric.
 - Keep a traveler view focused on actual itinerary times rather than airport rankings.
-- Remove visuals that are decorative but not explanatory.
+- Keep the geographic burden map only because its size, color, and direction encodings support the planning question; remove decorative template imagery.
 - Add a compact methods and limitations note to every published view.
 
 # Moodboard / persona
@@ -153,7 +154,8 @@ The visual tone should feel like an airline operations briefing rather than a tr
 - Project dataset: 828 one-stop BOS–LAX and LAX–BOS advertised itineraries collected for April 17–26, 2022.
 - [Final Project Part I](final-project-part-one.md)
 - [Tableau Public workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover)
-- [Shorthand draft preview](https://preview.shorthand.com/OF9PiNa6TSFiWKr9/responsive/phone)
+- [Shorthand story preview](https://preview.shorthand.com/OF9PiNa6TSFiWKr9/responsive/phone)
+- Part II Tableau workbook and exported map are preserved in the project deliverables.
 
 # AI acknowledgements
 
