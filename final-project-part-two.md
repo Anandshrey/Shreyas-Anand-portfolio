@@ -8,11 +8,11 @@ This revision therefore treats airline network and route planners as the primary
 
 ## Shorthand story
 
-The published Shorthand story is titled **“The Architecture of a Layover: What an Average Wait Hides.”** It contains the narrative draft, the route-planning interpretation, and an exported Tableau prototype.
+The published Shorthand story is titled **“The Architecture of a Layover: What an Average Wait Hides.”** It contains the planner-focused narrative, the in-class critique response, operational recommendations, user-research protocol, and embedded live Tableau views.
 
-<iframe src="https://carnegiemellon.shorthandstories.com/the-architecture-of-a-layover/index.html" width="100%" height="720" title="The Architecture of a Layover Shorthand story"></iframe>
+<iframe src="https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html" width="100%" height="720" title="The Architecture of a Layover Shorthand story"></iframe>
 
-[Open the Shorthand story preview](https://carnegiemellon.shorthandstories.com/the-architecture-of-a-layover/index.html)
+[Open the Shorthand story preview](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html)
 
 # Wireframes / storyboards
 
@@ -168,7 +168,7 @@ The visual tone should feel like an airline operations briefing rather than a tr
 - Project dataset: 828 one-stop BOS–LAX and LAX–BOS advertised itineraries collected for April 17–26, 2022.
 - [Final Project Part I](final-project-part-one.md)
 - [Tableau Public workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover)
-- [Shorthand story preview](https://carnegiemellon.shorthandstories.com/the-architecture-of-a-layover/index.html)
+- [Shorthand story preview](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html)
 - Part II Tableau workbook and exported map are preserved in the project deliverables.
 
 # AI acknowledgements
