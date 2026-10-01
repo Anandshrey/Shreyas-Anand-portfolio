@@ -2,13 +2,13 @@
 
 # The Architecture of a Layover: Part II
 
-Part I asked what a traveler can learn from the average length of a layover. The critique revealed a more useful question: **where does schedule design create long, highly variable, or night-exposed connections, and how does that pattern change by direction?**
+Part I asked what a traveler can learn from the average length of a layover. The critique revealed a more useful question: **where does schedule design create long, highly variable, or night exposed connections, and how does that pattern change by direction?**
 
 This revision therefore treats airline network and route planners as the primary audience. Travelers remain a secondary audience, but the main decision supported by the story is an operational one: which connection banks deserve closer review?
 
 ## Shorthand story
 
-The published Shorthand story is titled **“The Architecture of a Layover: What an Average Wait Hides.”** It contains the planner-focused narrative, the in-class critique response, operational recommendations, user-research protocol, and embedded live Tableau views.
+The published Shorthand story is titled **“The Architecture of a Layover: What an Average Wait Hides.”** It contains the planner focused narrative, the in class critique response, recommendations, user research protocol, and embedded live Tableau views.
 
 <iframe src="https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html" width="100%" height="720" title="The Architecture of a Layover Shorthand story"></iframe>
 
@@ -16,18 +16,18 @@ The published Shorthand story is titled **“The Architecture of a Layover: What
 
 # Wireframes / storyboards
 
-The storyboard moves from a familiar traveler question to a specific planning decision. The geographic view is used analytically—not decoratively—to show where total scheduled waiting and six-hour connections accumulate.
+The storyboard moves from a familiar traveler question to a specific planning decision. The geographic view is used analytically to show where total scheduled waiting and 6 hour connections accumulate.
 
 | Frame | Purpose | Planned visual | Main takeaway |
 |---|---|---|---|
 | 1. Two flights, one wait | Establish the human experience and the planning problem | Title treatment with two connecting flight segments | A connection is part of the journey, not empty time between flights. |
 | 2. What the average hides | Explain the distribution before comparing hubs | Histogram of layover minutes with mean and median reference lines | The mean is 138 minutes, but the median is 96; the distribution has a long right tail. |
 | 3. Where the wait changes | Compare hubs without hiding sample size | Sorted horizontal bars with exact mean, median, p90, and *n* in the tooltip | A hub ranking is only useful when typical wait, tail risk, and sample size are visible together. |
-| 4. Direction changes the picture | Reveal schedule-bank asymmetry | Hub comparison with a BOS–LAX / LAX–BOS direction control | Pooled airport averages can hide large directional differences. |
-| 5. The clock matters | Add a passenger-experience metric | Night-exposure view using the local 10 p.m.–6 a.m. window | Duration alone misses connections that overlap the local overnight period. |
-| 6. Where burden accumulates | Add geographic context without overstating coverage | U.S. hub map sized by total scheduled layover minutes and colored by six-hour waits, with a direction filter | Geography is useful when it reveals where schedule burden clusters. The domestic scope matches the U.S. dataset. |
-| 7. Planning priorities | Turn findings into actions | Short annotated priority list | Review high-volume hubs with poor tail or night metrics before reacting to unstable small groups. |
-| 8. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17–26, 2022 advertised schedules, not current operational performance. |
+| 4. Direction changes the picture | Reveal schedule-bank asymmetry | Hub comparison with a BOS to LAX / LAX to BOS direction control | Pooled airport averages can hide large directional differences. |
+| 5. The clock matters | Add a passenger experience metric | Night-exposure view using the local 10 pm to 6 am window | Duration alone misses connections that overlap the local overnight period. |
+| 6. Where burden accumulates | Add geographic context without overstating coverage | U.S. hub map sized by total scheduled layover minutes and colored by 6 hour waits, with a direction filter | Geography is useful when it reveals where schedule burden clusters. The domestic scope matches the US dataset |
+| 7. Planning priorities | Turn findings into actions | Short annotated priority list | Review high volume hubs with poor tail or night metrics before reacting to unstable small groups. |
+| 8. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17 to 26, 2022 advertised schedules, not current operational performance. |
 
 ## High-fidelity Tableau prototypes
 
@@ -63,24 +63,24 @@ The Tableau workbook contains the four original connected views plus a new Part 
 
 [Open the geographic burden map in Tableau Public](https://public.tableau.com/views/Projectpart1_17900063502800/Sheet5?:showVizHome=no)
 
-The map is intentionally sized by total scheduled layover minutes and colored by six-hour-plus connections. It is an operational diagnostic: large, high-intensity hubs should be investigated by direction before schedule changes are made.
+The map is intentionally sized by total scheduled layover minutes and colored by 6 hr+ connections. It is an operational diagnostic: large, high intensity hubs should be investigated by direction before schedule changes are made.
 
 ## What the plots suggest
 
-- The overall mean layover is about **138 minutes**, while the median is **96 minutes**. The 42-minute gap shows why a route planner should not use the mean alone.
-- **392 of 828 itineraries** fall between 60 and 120 minutes, but **54 itineraries last at least six hours**. A median-plus-p90 view would keep both the routine experience and the tail visible.
-- Direction can change the conclusion. At SFO, the historical sample averaged **360.8 minutes for BOS–LAX** and **113.7 minutes for LAX–BOS**. The BOS–LAX group contains only eight itineraries, so this is a diagnostic signal rather than a universal ranking.
-- **144 itineraries overlap 10 p.m.–6 a.m.** and 21 cross local midnight. Among larger hub groups, IAD has 17 night-exposed itineraries out of 34, SLC 10 of 32, SFO 9 of 37, DEN 15 of 64, and ORD 20 of 130.
+- The overall mean layover is about **138 minutes**, while the median is **96 minutes**. The 42 minute gap shows why a route planner should not use the mean alone.
+- **392 of 828 itineraries** fall between 60 and 120 minutes, but **54 itineraries last at least six hours**. 
+- Direction can change the conclusion. At SFO, the historical sample averaged **360.8 minutes for BOS to LAX** and **113.7 minutes for LAX to BOS**. The BOS to LAX group contains only eight itineraries, so this is a diagnostic signal rather than a universal ranking.
+- **144 itineraries overlap 10 pm to 6 am** and 21 cross local midnight. Among larger hub groups, IAD has 17 night exposed itineraries out of 34, SLC 10 of 32, SFO 9 of 37, DEN 15 of 64, and ORD 20 of 130.
 
-### Suggestions for an airline planning audience
+### Suggestions from In class critique for this submission
 
-1. Review high-volume hubs first, then flag combinations of poor p90 and night exposure instead of ranking hubs by mean alone.
-2. Separate BOS–LAX from LAX–BOS before changing arrival or departure banks.
-3. Display mean, median, p90, and itinerary count together; suppress or flag unstable comparisons with very small *n*.
-4. Audit the night-exposed banks highlighted above, then check whether alternative same-day connection windows exist.
-5. Keep the traveler-facing view separate: show the actual itinerary and local clock times, because a hub average is context rather than a booking recommendation.
+1. Review high volume hubs first, then flag combinations of poor p90 and night exposure instead of ranking hubs by mean alone.
+2. Separate BOS to LAX from LAX to BOS before changing arrival or departure banks.
+3. Display mean, median, p90, and itinerary count together and suppress or flag unstable comparisons with very small *n*.
+4. Check whether alternative same day connection windows exist.
+5. Keep the traveler facing view separate: show the actual itinerary and local clock times, because a hub average is context rather than a booking recommendation.
 
-# In-class and Part I critique
+# In class and Part I critique
 
 | Source | Critique | Change made for Part II |
 |---|---|---|
@@ -99,17 +99,17 @@ The map is intentionally sized by total scheduled layover minutes and colored by
 
 ## Recruitment approach
 
-I will show the same early Shorthand/Tableau draft to at least three real people:
+I will show the same early Shorthand draft to at least three real people:
 
-- one person familiar with airline operations, transportation planning, or aviation analytics;
-- one analytically experienced reader who regularly works with dashboards or schedules;
-- one frequent traveler who has made connections between Boston and the West Coast or on comparable routes.
+- one person familiar with airline operations, transportation planning, or aviation analytics
+- one analytically experienced reader who regularly works with dashboards or schedules
+- one frequent traveler who has had experience of taking connections between Boston and the West Coast or on comparable routes
 
 Participants will be described only by broad role. Names, employers, contact details, and other personally identifying information will not be included on this page.
 
 ## Interview script
 
-Each conversation will last approximately 15–20 minutes. I will first ask the participant to read the story without explanation, then use the same core questions so responses can be compared.
+Each conversation will last approximately 15 to 20 minutes. I will first ask the participant to read the story without explanation, then use the same core questions so responses can be compared.
 
 | Goal | Questions to ask |
 |---|---|
@@ -118,7 +118,7 @@ Each conversation will last approximately 15–20 minutes. I will first ask the 
 | Test the distribution | What do the mean of 138 minutes and median of 96 minutes tell you? Is the difference clear? |
 | Test the hub view | Which hub would you inspect first, and what evidence led you there? What additional field would you need before acting? |
 | Test direction | Did the BOS–LAX / LAX–BOS split change your interpretation? Why or why not? |
-| Test night exposure | Is the 10 p.m.–6 a.m. measure understandable and useful? Would you define it differently? |
+| Test night exposure | Is the 10 pm to 6 am measure understandable and useful? Would you define it differently? |
 | Test trust | What claim feels strongest? Which claim feels unsupported or too broad? |
 | Test usability | Were any labels, airport codes, filters, or interactions confusing? |
 | Prioritize revision | If I could change only one thing before Part III, what should it be? |
@@ -134,7 +134,7 @@ Each conversation will last approximately 15–20 minutes. I will first ask the 
 | Confusing label or interaction | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Reaction to direction split | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Reaction to night exposure | *Pending real interview* | *Pending real interview* | *Pending real interview* |
-| Short, de-identified quotation | *Pending real interview* | *Pending real interview* | *Pending real interview* |
+| Short, de identified quotation | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 
 ### Synthesis template
 
@@ -146,7 +146,7 @@ After the interviews, I will distinguish:
 
 # Identified changes for Part III
 
-The plot analysis and critique already support the following revisions. Interview-driven revisions will be added after the three sessions.
+The plot analysis and critique already support the following revisions. Interview driven revisions will be added after the three sessions.
 
 - Keep route planners and airline managers as the primary audience and state the operational decision near the opening.
 - Use a sorted horizontal hub chart with exact values, full airport names, direction, and sample size.
@@ -159,13 +159,13 @@ The plot analysis and critique already support the following revisions. Intervie
 
 # Moodboard / persona
 
-The visual tone should feel like an airline operations briefing rather than a travel advertisement: dark navy, off-white, muted blue, and one warm alert color for tail risk or overnight exposure. Labels should be direct, typography restrained, and interactions limited to decisions the audience actually needs to make.
+The visual tone should feel like an airline operations briefing rather than a travel advertisement: dark navy, off white, muted blue, and one warm alert color for tail risk or overnight exposure. Labels should be direct, typography restrained, and interactions limited to decisions the audience actually needs to make.
 
-**Primary persona:** a route-planning analyst preparing a schedule review. They have limited time, need to identify which hub-direction combinations deserve investigation, and distrust rankings that omit sample size or variability.
+**Primary persona:** a route planning analyst preparing a schedule review. They have limited time, need to identify which hub-direction combinations deserve investigation, and distrust rankings that omit sample size or variability.
 
 # References
 
-- Project dataset: 828 one-stop BOS–LAX and LAX–BOS advertised itineraries collected for April 17–26, 2022.
+- Project dataset: 828 one stop BOS - LAX and LAX - BOS advertised itineraries collected for April 17 to 26, 2022.
 - [Final Project Part I](final-project-part-one.md)
 - [Tableau Public workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Projectpart1_17900063502800/DailyAverageLayover)
 - [Shorthand story preview](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html)
@@ -173,5 +173,5 @@ The visual tone should feel like an airline operations briefing rather than a tr
 
 # AI acknowledgements
 
-I used OpenAI Codex to help interpret the assignment rubric, profile the project dataset, check calculations, draft and edit the narrative structure, and operate Tableau Desktop and Shorthand while I reviewed the work. Codex also helped translate the critique into a route-planner audience and prepare the user-research protocol. I remain responsible for the analytical claims, design choices, participant recruitment, interviews, quotations, and final submission. No interview findings were generated or inferred by AI.
+I used OpenAI Codex to compare the final GitHub page against the assignment rubric. It also helped in suggesting write up based on changes made from Part I to Part II. No interview findings were generated or inferred by AI.
 
