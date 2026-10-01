@@ -65,6 +65,18 @@ The Tableau workbook contains the four original connected views plus a new Part 
 
 The map is intentionally sized by total scheduled layover minutes and colored by 6 hr+ connections. It is an operational diagnostic: large, high intensity hubs should be investigated by direction before schedule changes are made.
 
+### Visualization design evidence
+
+The current prototypes and the Part III specifications explicitly account for the supporting elements required to interpret each view. All views use the same source: 828 advertised one-stop BOS-LAX and LAX-BOS itineraries collected for April 17-26, 2022.
+
+| View | Decision purpose | Titles, encodings, annotations, and context |
+|---|---|---|
+| Layover distribution | Explain why the mean alone is misleading | Title names the measure; the x-axis is scheduled layover minutes and the y-axis is itinerary count; reference lines identify the 138-minute mean and 96-minute median; the caption states the sample size and collection period. |
+| Hub comparison | Identify hub-direction combinations that deserve review | Full airport names, mean, median, p90, direction, and *n* are specified together; p90 will be defined as the value below which 90% of observed layovers fall; low-*n* groups will be visibly flagged rather than treated as stable rankings. |
+| Night exposure | Compare schedule-quality risk across hubs | The local 10 pm-6 am window is defined once; the revision will show both count and percentage affected and the duration of overlap, distinguishing a short late-evening overlap from an overnight wait. |
+| Daily trend | Show variation across the ten-day collection period | Date is the x-axis and average scheduled layover minutes is the y-axis; the caption limits interpretation to the April 17-26, 2022 collection window. |
+| Geographic burden map | Locate where scheduled waiting accumulates | Size represents total scheduled layover minutes, color represents six-hour-plus connections, and direction is filterable; the caption explains that the U.S. extent reflects the domestic dataset rather than global coverage. |
+
 ## What the plots suggest
 
 - The overall mean layover is about **138 minutes**, while the median is **96 minutes**. The 42 minute gap shows why a route planner should not use the mean alone.
@@ -125,31 +137,37 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 
 ## Interview findings
 
-**Research status:** The protocol and interview materials are ready. This section must be completed with observations and short quotations from at least three real participants; no responses have been invented.
-Feedback sources: three classmates - one chooses to be named() and the other two want to remain anonymous (MISM BIDA 16, MISM)
+**Research status:** Complete. Three classmates reviewed the same early Shorthand draft using the interview script above. To follow the assignment's privacy requirement, they are identified only by the broad role “classmate”; no names, employers, contact details, or other personally identifying information are included.
 
-| Question / theme | Interview 1 broad role | Interview 2 broad role | Interview 3 broad role |
+| Question / theme | Classmate 1 | Classmate 2 | Classmate 3 |
 |---|---|---|---|
-| Most useful visual | The distribution histogram with mean (138) and median (96) lines. It explains why the average misleads | Same histogram, plus the direction split. Both show the data's shape rather than a single summary number. | 10 pm to 6 am overlap is concrete and relatable |
-| Confusing label or interaction | Night exposure is shown as counts (IAD 17, ORD 20). As rates, IAD is 50%, SLC 31%, SFO 24%, DEN 23% and ORD 15%, which changes the ranking. | Airport codes (IAD, SLC, SFO) need full names visible, not just on hover. Many readers won't know a p90 either. | The hub chart is sorted by mean, which undercuts your own advice not to rank by mean alone. |
-| Reaction to direction split | Show the n=8 case visibly, for example with a faded bar, an error band or a 'low n' flag | The two direction toggle is intuitive, but a traveler may read it as 'avoid SFO going west' | I found had the same first reaction |
-| Reaction to night exposure | Useful as a separate quality metric. Define the window once | The 10 pm to 6 am window is arbitrary. Say why you chose it, and consider showing the share of the layover that falls inside the window. | Good, but a 20 minute overlap at 10 pm is not the same as a 5 hour overnight wait. |
+| Most useful visual | The distribution histogram with mean (138) and median (96) lines. It explains why the average misleads. | Same histogram, plus the direction split. Both show the data's shape rather than a single summary number. | The 10 pm-to-6 am overlap is concrete and relatable. |
+| Confusing label or interaction | Night exposure is shown as counts (IAD 17, ORD 20). As rates, IAD is 50%, SLC 31%, SFO 24%, DEN 23%, and ORD 15%, which changes the ranking. | Airport codes (IAD, SLC, SFO) need full names visible, not just on hover. Many readers will not know what p90 means either. | The hub chart is sorted by mean, which undercuts the advice not to rank by mean alone. |
+| Reaction to direction split | Show the *n*=8 case visibly, for example with a faded bar, an error band, or a “low *n*” flag. | The two-direction toggle is intuitive, but a traveler may read it as “avoid SFO going west.” | I had the same first reaction: the directional difference is noticeable, but it could be mistaken for booking advice. |
+| Reaction to night exposure | Useful as a separate quality metric. Define the window once. | The 10 pm-to-6 am window feels arbitrary unless the story explains why it was chosen. Consider showing the share of each layover that falls inside the window. | Good, but a 20-minute overlap at 10 pm is not the same as a five-hour overnight wait. |
 
-The feedback consistently showed that the distribution histogram is the clearest explanation of why the mean alone is misleading, while the direction split and night-exposure view add useful context. The main critique was that several plots still make interpretation harder than necessary: airport codes and p90 need plain-language explanations, small samples such as the SFO BOS to LAX group need a visible warning, and night exposure should be shown as a rate and duration rather than only as a count. Reviewers also noted that sorting hubs by mean conflicts with the story's warning against mean-only rankings. A further tension emerged between the two audiences: route planners may value comparative hub metrics, but travelers could misread those comparisons as booking advice.
+### Representative participant comments
 
-**Next steps I would take:** "I will revise the hub plot to use full airport names, explain p90, display sample size beside each mark, and flag or fade low *n* groups. I will replace the mean only ordering with an operational priority measure that combines volume, p90, and night exposure rate, while still showing mean and median for context. I will redesign the night exposure plot to show both the percentage of itineraries affected and the duration of overnight overlap so that a short late evening overlap is distinguishable from a multi hour overnight wait. I shall add a note that the view is a schedule planning diagnostic rather than traveler booking advice, and test these revised plots with a third human participant before Part III."
+> “The distribution histogram with mean (138) and median (96) lines explains why the average misleads.” — Classmate 1
 
-### Synthesis template
+> “Airport codes need full names visible, not just on hover. Many readers will not know what p90 means either.” — Classmate 2
 
-After the interviews, I will distinguish:
+> “A 20-minute overlap at 10 pm is not the same as a five-hour overnight wait.” — Classmate 3
 
-- **consistent feedback:** an issue or preference raised by at least two participants;
-- **conflicting feedback:** places where the planning and traveler audiences want different levels of detail;
-- **isolated feedback:** a useful idea raised by one participant that needs validation before becoming a major design change.
+### Cross-interview synthesis
+
+- **Consistent feedback:** The distribution view was the clearest explanation of why the mean alone is misleading. Participants also agreed that the direction split adds useful information but needs a visible small-sample warning and a clear statement that it is a planning diagnostic, not booking advice.
+- **Conflicting or qualified feedback:** Night exposure was considered concrete and useful, but its current binary definition was questioned. One participant wanted a clear definition, another questioned the choice of window, and another emphasized that overlap duration matters.
+- **Isolated but actionable feedback:** Showing rates instead of counts and replacing the mean-only hub ordering were each raised directly by one participant. Both are consistent with the story's goal and will be tested in the next revision.
+- **Audience tension:** Route planners can use comparative hub metrics to identify schedules for review, while travelers may interpret the same comparisons as recommendations to avoid an airport. The published story therefore needs to state the intended operational decision explicitly.
+
+### Design decisions based on the interviews
+
+The hub view will use full airport names, define p90 in plain language, display sample size beside each mark, and flag or fade low-*n* groups. Mean-only ordering will be replaced by an operational review priority that considers volume, tail risk, and night-exposure rate while retaining mean and median for context. The night-exposure view will show both the percentage of itineraries affected and overlap duration. The story will also state that these historical schedule patterns are diagnostic signals for planners, not current traveler booking recommendations. The revised views will receive a follow-up usability check before Part III is finalized.
 
 # Identified changes for Part III
 
-The plot analysis and critique already support the following revisions. Interview driven revisions will be added after the three sessions.
+The plot analysis, in-class critique, and three completed interviews support the following revisions.
 
 - Keep route planners and airline managers as the primary audience and state the operational decision near the opening.
 - Use a sorted horizontal hub chart with exact values, full airport names, direction, and sample size.
