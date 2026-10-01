@@ -126,7 +126,7 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 ## Interview findings
 
 **Research status:** The protocol and interview materials are ready. This section must be completed with observations and short quotations from at least three real participants; no responses have been invented.
-Critiques: Fernando Rocha Rosario, Julia Clerici and Copilot
+Feedback sources: two classmates and an AI-assisted critique. The AI-assisted critique is supplementary and is not counted as a participant interview.
 
 | Question / theme | Interview 1 broad role | Interview 2 broad role | Interview 3 broad role |
 |---|---|---|---|
@@ -134,6 +134,10 @@ Critiques: Fernando Rocha Rosario, Julia Clerici and Copilot
 | Confusing label or interaction | Night exposure is shown as counts (IAD 17, ORD 20). As rates, IAD is 50%, SLC 31%, SFO 24%, DEN 23% and ORD 15%, which changes the ranking. | Airport codes (IAD, SLC, SFO) need full names visible, not just on hover. Many readers won't know a p90 either. |The hub chart is sorted by mean, which undercuts your own advice not to rank by mean alone. |
 | Reaction to direction split | Show the n=8 case visibly, for example with a faded bar, an error band or a 'low n' flag | The two direction toggle is intuitive, but a traveler may read it as 'avoid SFO going west' | I found had the same first reaction |
 | Reaction to night exposure | Useful as a separate quality metric. Define the window once | The 10 pm to 6 am window is arbitrary. Say why you chose it, and consider showing the share of the layover that falls inside the window. | Good, but a 20 minute overlap at 10 pm is not the same as a 5 hour overnight wait. |
+
+The feedback consistently showed that the distribution histogram is the clearest explanation of why the mean alone is misleading, while the direction split and night-exposure view add useful context. The main critique was that several plots still make interpretation harder than necessary: airport codes and p90 need plain-language explanations, small samples such as the SFO BOS-to-LAX group need a visible warning, and night exposure should be shown as a rate and duration rather than only as a count. Reviewers also noted that sorting hubs by mean conflicts with the story's warning against mean-only rankings. A further tension emerged between the two audiences: route planners may value comparative hub metrics, but travelers could misread those comparisons as booking advice.
+
+**Next steps I would take:** "I will revise the hub plot to use full airport names, explain p90, display sample size beside each mark, and flag or fade low-*n* groups. I will replace the mean-only ordering with an operational priority measure that combines volume, p90, and night-exposure rate, while still showing mean and median for context. I will redesign the night-exposure plot to show both the percentage of itineraries affected and the duration of overnight overlap so that a short late-evening overlap is distinguishable from a multi-hour overnight wait. I will keep the direction control prominent, add a note that the view is a schedule-planning diagnostic rather than traveler booking advice, and test these revised plots with a third human participant before Part III."
 
 ### Synthesis template
 
