@@ -14,7 +14,7 @@ The published Shorthand story is titled **“The Architecture of a Layover: What
 
 [Open the Shorthand story preview](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html)
 
-# Wireframes / storyboards
+# Wireframes/storyboards
 
 The storyboard moves from a familiar traveler question to a specific planning decision. The geographic view is used analytically to show where total scheduled waiting and 6 hour connections accumulate.
 
@@ -29,9 +29,9 @@ The storyboard moves from a familiar traveler question to a specific planning de
 | 7. Planning priorities | Turn findings into actions | Short annotated priority list | Review high volume hubs with poor tail or night metrics before reacting to unstable small groups. |
 | 8. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17 to 26, 2022 advertised schedules, not current operational performance. |
 
-## High-fidelity Tableau prototypes
+## High fidelity Tableau prototypes
 
-The Tableau workbook contains the four original connected views plus a new Part II geographic burden map. The hub view was revised in Tableau Desktop to sort hubs, label exact averages, and expose route direction as a filter. The map sizes hubs by total scheduled layover minutes and colors them by the count of six-hour waits.
+The Tableau workbook contains the four original connected views plus a new Part II geographic burden map. The hub view was revised in Tableau Desktop to sort hubs, label exact averages, and expose route direction as a filter. The map sizes hubs by total scheduled layover minutes and colors them by the count of 6 hour waits.
 
 ### Average scheduled layover by hub
 
@@ -84,16 +84,16 @@ The map is intentionally sized by total scheduled layover minutes and colored by
 
 | Source | Critique | Change made for Part II |
 |---|---|---|
-| Course reviewer (CR) | The story logic tied the pieces together into a complete picture. | I retained the progression from overall distribution to hub differences and then to the time-of-day experience. |
+| Course reviewer (CR) | The story logic tied the pieces together into a complete picture. | I retained the progression from overall distribution to hub differences and then to the time of day experience. |
 | Course reviewer (CG) | The original story had a great deal of detail without a sufficiently clear reason for the audience to need it. The reviewer suggested the perspective of a route planner or airline manager. | I reframed the primary audience as airline network and route planners and converted the ending into schedule-review actions. |
 | Johanna Fickel, Julia Clerici, and Trey Tillotson | Sort the major layover bars, clarify airport abbreviations on hover, and show exact averages. | The Tableau hub view is sorted, exact values are labeled, and the final tooltip specification includes the full airport name, mean, median, p90, direction, and *n*. |
-| My response to the discussion | A map was initially proposed as another view. | I redesigned the map as an analytic view: size encodes total layover burden, color encodes six-hour waits, and direction is filterable. I use a U.S. map because the data is domestic; a world map would overstate coverage. |
+| My response to the discussion | A map was initially proposed as another view. | I redesigned the map as an analytic view: size encodes total layover burden, color encodes 6 hour waits, and direction is filterable. I use a U.S. map because the data is domestic; a world map would overstate coverage. |
 
 # User research
 
 ## Target audience
 
-**Primary audience:** airline network planners, schedule-development analysts, and route managers who decide how arrival and departure banks connect.
+**Primary audience:** airline network planners, schedule development analysts, and route managers who decide how arrival and departure banks connect.
 
 **Secondary audience:** frequent connecting travelers who can judge whether the story makes schedule tradeoffs understandable without implying that a historical average is a current booking recommendation.
 
@@ -117,7 +117,7 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 | Test the opening | After the first two frames, what do you think the story is trying to explain? |
 | Test the distribution | What do the mean of 138 minutes and median of 96 minutes tell you? Is the difference clear? |
 | Test the hub view | Which hub would you inspect first, and what evidence led you there? What additional field would you need before acting? |
-| Test direction | Did the BOS–LAX / LAX–BOS split change your interpretation? Why or why not? |
+| Test direction | Did the BOS to LAX / LAX to BOS split change your interpretation? Why or why not? |
 | Test night exposure | Is the 10 pm to 6 am measure understandable and useful? Would you define it differently? |
 | Test trust | What claim feels strongest? Which claim feels unsupported or too broad? |
 | Test usability | Were any labels, airport codes, filters, or interactions confusing? |
@@ -127,14 +127,13 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 
 **Research status:** The protocol and interview materials are ready. This section must be completed with observations and short quotations from at least three real participants; no responses have been invented.
 
-| Question / theme | Interview 1 — broad role | Interview 2 — broad role | Interview 3 — broad role |
+| Question / theme | Interview 1 broad role | Interview 2 broad role | Interview 3 broad role |
 |---|---|---|---|
 | Perceived audience and decision | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Most useful visual | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Confusing label or interaction | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Reaction to direction split | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Reaction to night exposure | *Pending real interview* | *Pending real interview* | *Pending real interview* |
-| Short, de identified quotation | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 
 ### Synthesis template
 
@@ -152,7 +151,7 @@ The plot analysis and critique already support the following revisions. Intervie
 - Use a sorted horizontal hub chart with exact values, full airport names, direction, and sample size.
 - Add median and p90 to prevent the long right tail from disappearing behind the mean.
 - Make direction an explicit control and call out only differences with adequate sample size.
-- Treat night exposure as a separate schedule-quality metric.
+- Treat night exposure as a separate schedule quality metric.
 - Keep a traveler view focused on actual itinerary times rather than airport rankings.
 - Keep the geographic burden map only because its size, color, and direction encodings support the planning question; remove decorative template imagery.
 - Add a compact methods and limitations note to every published view.
@@ -161,7 +160,7 @@ The plot analysis and critique already support the following revisions. Intervie
 
 The visual tone should feel like an airline operations briefing rather than a travel advertisement: dark navy, off white, muted blue, and one warm alert color for tail risk or overnight exposure. Labels should be direct, typography restrained, and interactions limited to decisions the audience actually needs to make.
 
-**Primary persona:** a route planning analyst preparing a schedule review. They have limited time, need to identify which hub-direction combinations deserve investigation, and distrust rankings that omit sample size or variability.
+**Primary persona:** a route planning analyst preparing a schedule review. They have limited time, need to identify which hub direction combinations deserve investigation, and distrust rankings that omit sample size or variability.
 
 # References
 
