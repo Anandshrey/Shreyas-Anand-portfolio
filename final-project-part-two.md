@@ -127,10 +127,11 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 
 **Research status:** The protocol and interview materials are ready. This section must be completed with observations and short quotations from at least three real participants; no responses have been invented.
 Feedback sources: three classmates - one chooses to be named() and the other two want to remain anonymous (MISM BIDA 16, MISM)
+
 | Question / theme | Interview 1 broad role | Interview 2 broad role | Interview 3 broad role |
 |---|---|---|---|
 | Most useful visual | The distribution histogram with mean (138) and median (96) lines. It explains why the average misleads | Same histogram, plus the direction split. Both show the data's shape rather than a single summary number. | 10 pm to 6 am overlap is concrete and relatable |
-| Confusing label or interaction | Night exposure is shown as counts (IAD 17, ORD 20). As rates, IAD is 50%, SLC 31%, SFO 24%, DEN 23% and ORD 15%, which changes the ranking. | Airport codes (IAD, SLC, SFO) need full names visible, not just on hover. Many readers won't know a p90 either. |The hub chart is sorted by mean, which undercuts your own advice not to rank by mean alone. |
+| Confusing label or interaction | Night exposure is shown as counts (IAD 17, ORD 20). As rates, IAD is 50%, SLC 31%, SFO 24%, DEN 23% and ORD 15%, which changes the ranking. | Airport codes (IAD, SLC, SFO) need full names visible, not just on hover. Many readers won't know a p90 either. | The hub chart is sorted by mean, which undercuts your own advice not to rank by mean alone. |
 | Reaction to direction split | Show the n=8 case visibly, for example with a faded bar, an error band or a 'low n' flag | The two direction toggle is intuitive, but a traveler may read it as 'avoid SFO going west' | I found had the same first reaction |
 | Reaction to night exposure | Useful as a separate quality metric. Define the window once | The 10 pm to 6 am window is arbitrary. Say why you chose it, and consider showing the share of the layover that falls inside the window. | Good, but a 20 minute overlap at 10 pm is not the same as a 5 hour overnight wait. |
 
