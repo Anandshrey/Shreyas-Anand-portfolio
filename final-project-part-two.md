@@ -23,13 +23,13 @@ The storyboard moves from a familiar traveler question to a specific planning de
 | 1. Two flights, one wait | Establish the human experience and the planning problem | Title treatment with two connecting flight segments | A connection is part of the journey, not empty time between flights. |
 | 2. What the average hides | Explain the distribution before comparing hubs | Histogram of layover minutes with mean and median reference lines | The mean is 138 minutes, but the median is 96; the distribution has a long right tail. |
 | 3. Where the wait changes | Compare hubs without hiding sample size | Sorted horizontal bars with exact mean, median, p90, and *n* in the tooltip | A hub ranking is only useful when typical wait, tail risk, and sample size are visible together. |
-| 4. Direction changes the picture | Reveal schedule-bank asymmetry | Hub comparison with a BOS to LAX / LAX to BOS direction control | Pooled airport averages can hide large directional differences. |
+| 4. Direction changes the picture | Reveal asymmetry | Hub comparison with a BOS to LAX / LAX to BOS direction control | Pooled airport averages can hide large directional differences. |
 | 5. The clock matters | Add a passenger experience metric | Night-exposure view using the local 10 pm to 6 am window | Duration alone misses connections that overlap the local overnight period. |
 | 6. Where burden accumulates | Add geographic context without overstating coverage | U.S. hub map sized by total scheduled layover minutes and colored by 6 hour waits, with a direction filter | Geography is useful when it reveals where schedule burden clusters. The domestic scope matches the US dataset |
 | 7. Planning priorities | Turn findings into actions | Short annotated priority list | Review high volume hubs with poor tail or night metrics before reacting to unstable small groups. |
 | 8. Limits and next steps | Prevent overclaiming | Text close with the collection period and missing variables | These are April 17 to 26, 2022 advertised schedules, not current operational performance. |
 
-## High fidelity Tableau prototypes
+## Tableau prototypes
 
 The Tableau workbook contains the four original connected views plus a new Part II geographic burden map. The hub view was revised in Tableau Desktop to sort hubs, label exact averages, and expose route direction as a filter. The map sizes hubs by total scheduled layover minutes and colors them by the count of 6 hour waits.
 
@@ -85,9 +85,9 @@ The map is intentionally sized by total scheduled layover minutes and colored by
 | Source | Critique | Change made for Part II |
 |---|---|---|
 | Course reviewer (CR) | The story logic tied the pieces together into a complete picture. | I retained the progression from overall distribution to hub differences and then to the time of day experience. |
-| Course reviewer (CG) | The original story had a great deal of detail without a sufficiently clear reason for the audience to need it. The reviewer suggested the perspective of a route planner or airline manager. | I reframed the primary audience as airline network and route planners and converted the ending into schedule-review actions. |
+| Course reviewer (CG) | The original story had a great deal of detail without a sufficiently clear reason for the audience to need it. The reviewer suggested the perspective of a route planner or airline manager. | I reframed the primary audience as airline network and route planners and converted the ending into schedule review actions. |
 | Johanna Fickel, Julia Clerici, and Trey Tillotson | Sort the major layover bars, clarify airport abbreviations on hover, and show exact averages. | The Tableau hub view is sorted, exact values are labeled, and the final tooltip specification includes the full airport name, mean, median, p90, direction, and *n*. |
-| My response to the discussion | A map was initially proposed as another view. | I redesigned the map as an analytic view: size encodes total layover burden, color encodes 6 hour waits, and direction is filterable. I use a U.S. map because the data is domestic; a world map would overstate coverage. |
+| My response to the discussion | A map was initially proposed as another view. | I redesigned the map as an analytic view: size encodes total layover burden, color encodes 6 hour waits, and direction is filterable. I use a US map because the data is domestic; a world map would overstate coverage. |
 
 # User research
 
@@ -129,7 +129,6 @@ Each conversation will last approximately 15 to 20 minutes. I will first ask the
 
 | Question / theme | Interview 1 broad role | Interview 2 broad role | Interview 3 broad role |
 |---|---|---|---|
-| Perceived audience and decision | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Most useful visual | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Confusing label or interaction | *Pending real interview* | *Pending real interview* | *Pending real interview* |
 | Reaction to direction split | *Pending real interview* | *Pending real interview* | *Pending real interview* |
