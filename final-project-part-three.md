@@ -6,7 +6,7 @@
 
 ## The story and the decision
 
-The [current public Shorthand story](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html) shows the Part II version. The final, shorter presentation revision is being prepared; this page will link directly to it when it is published. The [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSNightMinutes?publish=yes) contains the updated visual evidence.
+The [final public Shorthand story](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html) is published with the Part III narrative and charts. The existing address is retained so earlier links continue to work. The [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSPlanningReview?publish=yes) contains the updated visual evidence.
 
 The final story asks one question of a route-planning analyst: **Which Los Angeles-to-Boston connection bank should be reviewed first?** It does not ask a traveler to avoid a hub. In this historical sample, Denver's long-wait connections are the strongest candidate for investigation. The action is to inspect the relevant arrival and departure banks, then check a broader schedule period and operating data before proposing a change.
 
@@ -33,7 +33,7 @@ The nearly equal medians conceal different upper tails. O'Hare has more listings
 
 ## Design choices and what I learned
 
-The presentation follows **average → long tail → Los Angeles-to-Boston comparison → local-clock check → review action**. Each view answers the question raised by the previous one. The U.S. burden map remains optional context after the main path; putting it in the one-minute presentation would add another metric without changing the recommendation. The visual treatment uses restrained navy and off-white, with amber only for the long tail or night overlap. Essential values should be labeled on screen rather than hidden in hover text.
+The presentation follows **average → long tail → Los Angeles-to-Boston comparison → local-clock check → review action**. Each view answers the question raised by the previous one. The U.S. burden map remains optional context after the main path; putting it in the one-minute presentation would add another metric without changing the recommendation. The visual treatment uses restrained navy and off-white, with amber highlighting the long waits and comparison bars. Four responsive charts make the mean and median, distribution, upper-tail comparison, and night-overlap duration readable directly in Shorthand. Full airport names, sample sizes, common zero-based scales, dates, and source notes are visible without hovering. The interactive eight-sheet Tableau workbook follows the main narrative as optional exploration, with a direct link as a fallback. I removed the decorative airport photograph to keep attention on the evidence.
 
 The biggest lesson was that a descriptive chart becomes useful only when its unit and decision are explicit. Here, each row is a listed option, not a passenger or a completed connection. The 90th percentile describes the upper end of this sample, not uncertainty about an airline's performance. The 10 p.m.–6 a.m. window and six-hour threshold are project conventions. These advertised schedules cannot establish delay risk, hotel need, passenger impact, current service, or why an airline arranged its banks this way. A planner would need flight identifiers, passenger volumes, connection-protection rules, actual operations, and a wider period before changing a timetable.
 
@@ -41,9 +41,9 @@ The biggest lesson was that a descriptive chart becomes useful only when its uni
 
 - Wong, D. (2022). [*Flight Prices*](https://www.kaggle.com/datasets/dilwong/flightprices), Kaggle dataset, listed as CC BY 4.0. The [creator's field documentation](https://github.com/dilwong/FlightPrices) explains the segment data. The source consists of Expedia search listings; attribution does not imply endorsement by Wong or Expedia.
 - [Project data dictionary and limitations](assets/layover/DATA_README.md), [prepared 828-row CSV](assets/layover/layovers_clean.csv), and [reproducible analysis notebook](assets/layover/layover_analysis.ipynb) document extraction, filtering, calculations, and checks.
-- [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSNightMinutes?publish=yes) supplies the published visualizations. Story diagrams and chart assets were created for this project; no airline logos or third-party photographs are needed.
+- [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSPlanningReview?publish=yes) supplies the published visualizations. Story diagrams and chart assets were created for this project; no airline logos or third-party photographs are needed.
 
-The Shorthand story itself must retain these source links and the historical-sample caveat beside the visuals. The final public story link will replace the Part II preview link above after publication.
+The published Shorthand story retains these source links and the historical-sample caveats beside the visuals. I checked the live desktop and 390-pixel phone layouts, confirmed that the embedded workbook opens on the planning review with all eight sheet tabs, and independently recalculated the headline, Denver/O'Hare, and date-specific results from the prepared CSV. These checks establish consistency with the project extract, not representativeness of current airline service.
 
 ## AI acknowledgement
 
