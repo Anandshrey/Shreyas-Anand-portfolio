@@ -1,36 +1,53 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [Portfolio](README.md) | [Part I](final-project-part-one.md) | [Part II](final-project-part-two.md) | [Part III](final-project-part-three.md) |
 
-# The final data story
-> Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
+# The Architecture of a Layover: Part III
 
-Text here!
+**Shreyas Anand · Telling Stories with Data**
 
-# Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+## The story and the decision
 
-Text here!
+The [current public Shorthand story](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html) shows the Part II version. The final, shorter presentation revision is being prepared; this page will link directly to it when it is published. The [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSNightMinutes?publish=yes) contains the updated visual evidence.
 
-## The audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+The final story asks one question of a route-planning analyst: **Which Los Angeles-to-Boston connection bank should be reviewed first?** It does not ask a traveler to avoid a hub. In this historical sample, Denver's long-wait connections are the strongest candidate for investigation. The action is to inspect the relevant arrival and departure banks, then check a broader schedule period and operating data before proposing a change.
 
-Text here!
+## How the project changed
 
-## Final design decisions
-> You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process.  Include any other information that helps round out your data story. 
+[Part I](final-project-part-one.md) began with the average scheduled layover and showed why a connection is a meaningful part of a journey. [Part II](final-project-part-two.md) added direction, night timing, a geographic view, and three classmate interviews. The Part II feedback identified the main weakness: the visuals supplied evidence, but the reader still lacked a clear narrative and call to action. I changed the structure from a tour of metrics to a planner's decision, using one direction and two hubs as the worked example.
 
-Text here!
+The interview findings shaped that choice. Participants understood the mean-versus-median histogram, but questioned an airport ranking based on the mean alone, unfamiliar codes, small groups, and a night measure that counted a few minutes the same as several hours. I now spell out airport names, show the number of listings, define the 90th percentile in plain language, and pair night-window counts with minutes of overlap. The eye-catching San Francisco westbound result is not the lead because that group has only eight listings. The persona is a route-planning analyst preparing a schedule review: they need a defensible shortlist and the evidence needed to test it, not a claim about the best airport.
 
-## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
+## What the final comparison shows
 
-## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
+The source is a bounded extract of Dillon Wong's 2022 *Flight Prices* listings. After exact-endpoint and one-stop checks, it contains **828 distinct advertised schedule-and-carrier combinations** for Boston Logan and Los Angeles International in both directions, departing **April 17–26, 2022**. The overall mean scheduled wait is **138 minutes** and the median is **96 minutes**; **54 listings** have waits of at least six hours. Those figures motivate the direction-specific comparison rather than replacing it.
 
-Text here!
+| Los Angeles → Boston | Denver | Chicago O'Hare |
+|---|---:|---:|
+| Listed connections | 45 | 55 |
+| Median scheduled wait | 99 min | 98 min |
+| 90th-percentile scheduled wait | 348 min | 173 min |
+| Waits of at least six hours | 5 | 1 |
+| Connections touching 10 p.m.–6 a.m. locally | 15 (33%) | 20 (36%) |
+| Median night-window overlap among those affected | 64 min | 13 min |
 
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
+The nearly equal medians conceal different upper tails. O'Hare has more listings that touch the night window, while the affected Denver listings spend longer in it. All five Denver waits of at least six hours in this comparison fall on **April 24–26** and are daytime waits. That is why the story ends with a targeted review of the Denver connection bank, not a generic warning about overnight connections.
 
-Text here!
+## Design choices and what I learned
 
+The presentation follows **average → long tail → Los Angeles-to-Boston comparison → local-clock check → review action**. Each view answers the question raised by the previous one. The U.S. burden map remains optional context after the main path; putting it in the one-minute presentation would add another metric without changing the recommendation. The visual treatment uses restrained navy and off-white, with amber only for the long tail or night overlap. Essential values should be labeled on screen rather than hidden in hover text.
+
+The biggest lesson was that a descriptive chart becomes useful only when its unit and decision are explicit. Here, each row is a listed option, not a passenger or a completed connection. The 90th percentile describes the upper end of this sample, not uncertainty about an airline's performance. The 10 p.m.–6 a.m. window and six-hour threshold are project conventions. These advertised schedules cannot establish delay risk, hotel need, passenger impact, current service, or why an airline arranged its banks this way. A planner would need flight identifiers, passenger volumes, connection-protection rules, actual operations, and a wider period before changing a timetable.
+
+## Sources, assets, and reproducibility
+
+- Wong, D. (2022). [*Flight Prices*](https://www.kaggle.com/datasets/dilwong/flightprices), Kaggle dataset, listed as CC BY 4.0. The [creator's field documentation](https://github.com/dilwong/FlightPrices) explains the segment data. The source consists of Expedia search listings; attribution does not imply endorsement by Wong or Expedia.
+- [Project data dictionary and limitations](assets/layover/DATA_README.md), [prepared 828-row CSV](assets/layover/layovers_clean.csv), and [reproducible analysis notebook](assets/layover/layover_analysis.ipynb) document extraction, filtering, calculations, and checks.
+- [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSNightMinutes?publish=yes) supplies the published visualizations. Story diagrams and chart assets were created for this project; no airline logos or third-party photographs are needed.
+
+The Shorthand story itself must retain these source links and the historical-sample caveat beside the visuals. The final public story link will replace the Part II preview link above after publication.
+
+## AI acknowledgement
+
+I used OpenAI Codex to help edit the narrative and Part III writeup, check direction-specific calculations against the prepared data, draft the one-minute presentation, and repair the Tableau workbook. The three interview findings were documented in Part II and were not generated by AI. I remain responsible for the interpretation, design choices, citations, and final submission.
+
+[Back to portfolio](README.md) · [Part I](final-project-part-one.md) · [Part II](final-project-part-two.md)
 
