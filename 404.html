@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /404.html
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find your way | Shreyas Anand</title>
+  <link rel="stylesheet" href="{{ '/assets/portfolio/style.css' | relative_url }}">
+  <script>
+    (() => {
+      const base = {{ '/' | relative_url | jsonify }};
+      const routes = new Map([['index.md', ''], ['dataviz2.md', 'dataviz-examples'], ['dataviz2', 'dataviz-examples'], ['dataviz2.html', 'dataviz-examples']]);
+      const path = window.location.pathname;
+      const relative = path.startsWith(base) ? path.slice(base.length) : null;
+      if (relative !== null && routes.has(relative)) {
+        const hash = window.location.hash || (relative === 'index.md' ? '#about' : '');
+        window.location.replace(base + routes.get(relative) + window.location.search + hash);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <main class="container closing-section" style="margin-top:12vh">
+    <p class="eyebrow">Shreyas Anand / Portfolio</p>
+    <h1>Let's get you<br>back to <em>the story.</em></h1>
+    <p>This address may be an older link. You can find the portfolio and visualization collection below.</p>
+    <div><a class="button button-dark" href="{{ '/' | relative_url }}">Portfolio home ↗</a><a class="text-link" href="{{ '/dataviz-examples' | relative_url }}">Data visualization examples ↗</a></div>
+  </main>
+</body>
+</html>
