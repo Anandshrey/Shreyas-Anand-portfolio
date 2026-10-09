@@ -8,7 +8,7 @@
 
 The [final public Shorthand story](https://carnegiemellon.shorthandstories.com/layover-architecture-part-two/index.html) is published with the Part III narrative and charts. The existing address is retained so earlier links continue to work. The [Part III Tableau workbook](https://public.tableau.com/app/profile/shreyas.anand4069/viz/Project-Part-III-Layover-Story-REPAIRED/LAX-BOSPlanningReview?publish=yes) contains the updated visual evidence.
 
-The final story asks one question of a route planning analyst: **Which Los Angeles to Boston connection bank should be reviewed first?** It does not ask a traveler to avoid a hub. In this historical sample, Denver's long wait connections are the strongest candidate for investigation. The action is to inspect the relevant arrival and departure banks, then check a broader schedule period and operating data before proposing a change.
+The final story asks one question of a route planning analyst: **Which Los Angeles to Boston connection bank should be reviewed first?** It does not ask a traveler to avoid a hub. Within the Denver–O'Hare worked comparison, Denver's long wait connections warrant closer investigation. The action is to inspect the relevant arrival and departure banks, then check a broader schedule period and operating data before proposing a change.
 
 ## How the project changed
 
