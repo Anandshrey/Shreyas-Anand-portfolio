@@ -22,7 +22,7 @@ The homepage now includes my internship and research history at Quadrant Technol
 
 ## Internship work and research papers
 
-The [internship project notes](https://anandshrey.github.io/Shreyas-Anand-portfolio/internships/) summarize each internship and the VIT research assistantship. The Quadrant Mel entry links to the live sign-in page and the public team repository. The homepage also links to the publisher pages for all three research papers.
+The [internship project notes](https://anandshrey.github.io/Shreyas-Anand-portfolio/internships/) summarize each internship and the VIT research assistantship. The Quadrant Mel entry links to the live sign-in page and the public team repository. The internship page links to completion evidence for Tech Mahindra and GlobalCert, plus a distinct DRDO certificate for industrial training in August–November 2023. The Tech Mahindra public copy has its private address and internal associate ID removed. The homepage also links to the publisher pages for all three research papers.
 
 ## Résumé
 
