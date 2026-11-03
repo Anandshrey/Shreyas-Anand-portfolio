@@ -18,7 +18,7 @@ It began in Carnegie Mellon's *Telling Stories with Data* course and now also co
 
 ## Experience and projects
 
-The homepage now includes my internship and research history at Quadrant Technologies, Carnegie Mellon University, DRDO, Sopra Steria, Tech Mahindra, VIT Vellore, and GlobalCert. It also links to independent GitHub projects in NLP, cybersecurity, multimodal machine learning, churn, and bidding analysis. Independent projects are described separately from employer work.
+The homepage now includes my internship and research history at Quadrant Technologies, Carnegie Mellon University, DRDO, Sopra Steria, Tech Mahindra, VIT Vellore, and GlobalCert. It also links to independent GitHub projects in NLP, cybersecurity, multimodal machine learning, churn, and bidding analysis. Independent projects are described separately from employer work. The BreachGuard card links to the live team demo, and Housing Market Assessment links to the team's public Tableau story. Two earlier Python experiments are also linked to their GitHub repositories.
 
 ## Internship work and research papers
 
