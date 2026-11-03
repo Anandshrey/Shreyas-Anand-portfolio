@@ -20,6 +20,14 @@ It began in Carnegie Mellon's *Telling Stories with Data* course and now also co
 
 The homepage now includes my internship and research history at Quadrant Technologies, Carnegie Mellon University, DRDO, Sopra Steria, Tech Mahindra, VIT Vellore, and GlobalCert. It also links to independent GitHub projects in NLP, cybersecurity, multimodal machine learning, churn, and bidding analysis. Independent projects are described separately from employer work.
 
+## Internship work and research papers
+
+The [internship project notes](https://anandshrey.github.io/Shreyas-Anand-portfolio/internships/) summarize each internship and the VIT research assistantship. The Quadrant Mel entry links to the live sign-in page and the public team repository. The homepage also links to the publisher pages for all three research papers.
+
+## Résumé
+
+The [résumé viewer](https://anandshrey.github.io/Shreyas-Anand-portfolio/resume/) previews the unchanged August 2026 PDF and offers open and download actions.
+
 ## Certifications
 
 The site links to my Google Data Analytics and Google Business Intelligence Professional Certificates, plus 11 completed course certificates, using Coursera verification pages.
