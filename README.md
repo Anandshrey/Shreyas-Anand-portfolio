@@ -1,6 +1,6 @@
 # Shreyas Anand — Data, Design & Stories
 
-My portfolio brings together data storytelling, visualization, AI, and cloud engineering.
+My portfolio brings together data storytelling, analytics, applied AI, research, internships, public projects, and verified Google Coursera certificates.
 
 **[Explore the portfolio](https://anandshrey.github.io/Shreyas-Anand-portfolio/)**
 
@@ -14,7 +14,15 @@ My portfolio brings together data storytelling, visualization, AI, and cloud eng
 
 I'm pursuing a Master of Information Systems Management, specializing in Business Intelligence and Data Analytics, at Carnegie Mellon University's Heinz College. My interests span data visualization, AI and retrieval systems, cloud infrastructure, and deployment automation.
 
-This portfolio was developed for Carnegie Mellon's *Telling Stories with Data* course.
+It began in Carnegie Mellon's *Telling Stories with Data* course and now also covers my wider technical profile.
+
+## Experience and projects
+
+The homepage now includes my internship and research history at Quadrant Technologies, Carnegie Mellon University, DRDO, Sopra Steria, Tech Mahindra, VIT Vellore, and GlobalCert. It also links to independent GitHub projects in NLP, cybersecurity, multimodal machine learning, churn, and bidding analysis. Independent projects are described separately from employer work.
+
+## Certifications
+
+The site links to my Google Data Analytics and Google Business Intelligence Professional Certificates, plus 11 completed course certificates, using Coursera verification pages.
 
 ## Site maintenance
 
